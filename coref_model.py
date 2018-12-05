@@ -164,7 +164,7 @@ class CorefModel(object):
 
     doc_key = example["doc_key"]
     # 
-    genre = self.genres[doc_key[:2]]
+    genre = self.genres[doc_key[-2:]]
     print(genre)
 
 

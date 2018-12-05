@@ -127,7 +127,7 @@ def handle_line(line, document_state, language, labels, stats):
   begin_document_match = re.match(conll.BEGIN_DOCUMENT_REGEX, line)
   if begin_document_match:
     document_state.assert_empty()
-    document_state.doc_key = "test_key" #conll.get_doc_key(begin_document_match.group(1), begin_document_match.group(2))
+    document_state.doc_key = conll.get_doc_key(begin_document_match.group(1))
     return None
   elif line.startswith("#end document"):
     document_state.assert_finalizable()
@@ -151,7 +151,8 @@ def handle_line(line, document_state, language, labels, stats):
 
     assert len(row) >= 12
 
-    doc_key = conll.get_doc_key(row[0], row[1])
+    doc_key = conll.get_doc_key(row[0])
+    print(doc_key)
     word = normalize_word(row[3], language)
     parse = row[5]
     speaker = row[9]

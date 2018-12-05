@@ -86,6 +86,7 @@ class CorefModel(object):
       while True:
         random.shuffle(train_examples)
         for example in train_examples:
+          print("HIHI")
           tensorized_example = self.tensorize_example(example, is_training=True)
           feed_dict = dict(zip(self.queue_input_tensors, tensorized_example))
           session.run(self.enqueue_op, feed_dict=feed_dict)
@@ -163,10 +164,10 @@ class CorefModel(object):
     speaker_ids = np.array([speaker_dict[s] for s in speakers])
 
     doc_key = example["doc_key"]
-    # 
+    print(doc_key)
+    print(self.genres)
     genre = self.genres[doc_key[:2]]
-    print(genre)
-
+    
 
     gold_starts, gold_ends = self.tensorize_mentions(gold_mentions)
 

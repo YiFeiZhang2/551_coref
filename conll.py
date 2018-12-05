@@ -14,12 +14,16 @@ import collections
 BEGIN_DOCUMENT_REGEX = re.compile(r"#begin document \((.*)\)")
 COREF_RESULTS_REGEX = re.compile(r".*Coreference: Recall: \([0-9.]+ / [0-9.]+\) ([0-9.]+)%\tPrecision: \([0-9.]+ / [0-9.]+\) ([0-9.]+)%\tF1: ([0-9.]+)%.*", re.DOTALL)
 
-def get_doc_key(doc_id, part):
-  return "{}_{}".format(doc_id, int(part))
+# def get_doc_key(doc_id, part):
+#   return "{}_{}".format(doc_id, int(part))
+
+def get_doc_key(doc_id):
+  return doc_id
 
 def output_conll(input_file, output_file, predictions):
   prediction_map = {}
   for doc_key, clusters in predictions.items():
+    print(doc_key)
     start_map = collections.defaultdict(list)
     end_map = collections.defaultdict(list)
     word_map = collections.defaultdict(list)
@@ -36,21 +40,25 @@ def output_conll(input_file, output_file, predictions):
       end_map[k] = [cluster_id for cluster_id, start in sorted(v, key=operator.itemgetter(1), reverse=True)]
     prediction_map[doc_key] = (start_map, end_map, word_map)
 
+
+  print(prediction_map.keys())
+
   word_index = 0
   for line in input_file.readlines():
     row = line.split()
     if len(row) == 0:
       output_file.write("\n")
     elif row[0].startswith("#"):
+      print(row)
       begin_match = re.match(BEGIN_DOCUMENT_REGEX, line)
       if begin_match:
-        doc_key = get_doc_key(begin_match.group(1), begin_match.group(2))
+        doc_key = get_doc_key(begin_match.group(1))
         start_map, end_map, word_map = prediction_map[doc_key]
         word_index = 0
       output_file.write(line)
       output_file.write("\n")
     else:
-      assert get_doc_key(row[0], row[1]) == doc_key
+      assert get_doc_key(row[0]) == doc_key
       coref_list = []
       if word_index in end_map:
         for cluster_id in end_map[word_index]:
@@ -72,7 +80,11 @@ def output_conll(input_file, output_file, predictions):
       word_index += 1
 
 def official_conll_eval(gold_path, predicted_path, metric, official_stdout=False):
-  cmd = ["conll-2012/scorer/v8.01/scorer.pl", metric, gold_path, predicted_path, "none"]
+  # 
+  print(metric)
+  print(gold_path)
+  print(predicted_path)
+  cmd = ["./scorer.pl", metric, gold_path, predicted_path, "none"]
   process = subprocess.Popen(cmd, stdout=subprocess.PIPE)
   stdout, stderr = process.communicate()
   process.wait()

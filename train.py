@@ -27,6 +27,9 @@ if __name__ == "__main__":
   with tf.Session() as session:
     session.run(tf.global_variables_initializer())
     model.start_enqueue_thread(session)
+
+    print("Started enqeueue thread")
+
     accumulated_loss = 0.0
 
     ckpt = tf.train.get_checkpoint_state(log_dir)
@@ -36,8 +39,11 @@ if __name__ == "__main__":
 
     initial_time = time.time()
     while True:
+      print("going to run a session")
       tf_loss, tf_global_step, _ = session.run([model.loss, model.global_step, model.train_op])
       accumulated_loss += tf_loss
+
+      print(accumulated_loss)
 
       if tf_global_step % report_frequency == 0:
         total_time = time.time() - initial_time
@@ -49,6 +55,7 @@ if __name__ == "__main__":
         accumulated_loss = 0.0
 
       if tf_global_step % eval_frequency == 0:
+        print("aha!!! in the eval place")
         saver.save(session, os.path.join(log_dir, "model"), global_step=tf_global_step)
         eval_summary, eval_f1 = model.evaluate(session)
 

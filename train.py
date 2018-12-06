@@ -12,6 +12,7 @@ import util
 
 if __name__ == "__main__":
   config = util.initialize_from_env()
+  print("config: ", config)
 
   report_frequency = config["report_frequency"]
   eval_frequency = config["eval_frequency"]

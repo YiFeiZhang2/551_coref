@@ -30,7 +30,7 @@ def cache_dataset(data_path, session, token_ph, len_ph, lm_emb, out_file):
       sentences = example["sentences"]
       doc_key = example["doc_key"]
 
-      print(doc_key)
+      print("Doc key at cache step is:", doc_key)
 
       max_sentence_length = max(len(s) for s in sentences)
       tokens = [[""] * max_sentence_length for _ in sentences]
@@ -46,6 +46,7 @@ def cache_dataset(data_path, session, token_ph, len_ph, lm_emb, out_file):
           len_ph: text_len
       })
 
+      print(doc_key)
       group = out_file.create_group(doc_key)
       for i, (e, l) in enumerate(zip(tf_lm_emb, text_len)):
         e = e[:l, :, :]

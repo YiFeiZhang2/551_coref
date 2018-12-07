@@ -166,7 +166,8 @@ class CorefModel(object):
     doc_key = example["doc_key"]
     print(doc_key)
     print(self.genres)
-    genre = self.genres[doc_key[:2]]
+    # because the doc key now starts with '('
+    genre = self.genres[doc_key[1:3]]
     
 
     gold_starts, gold_ends = self.tensorize_mentions(gold_mentions)

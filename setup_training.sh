@@ -45,10 +45,10 @@
 # compile_language chinese
 # compile_language arabic
 
-# python2 minimize.py
-# python2 get_char_vocab.py
+python2 minimize.py
+python2 get_char_vocab.py
 
-# # echo "Just finished getting char vocab"
+# echo "Just finished getting char vocab"
 
-# python filter_embeddings.py glove.840B.300d.txt train.english.jsonlines dev.english.jsonlines
+python filter_embeddings.py glove.840B.300d.txt train.english.jsonlines dev.english.jsonlines
 python cache_elmo.py train.english.jsonlines dev.english.jsonlines

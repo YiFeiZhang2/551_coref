@@ -23,7 +23,7 @@ def get_doc_key(doc_id):
 def output_conll(input_file, output_file, predictions):
   prediction_map = {}
   for doc_key, clusters in predictions.items():
-    print(doc_key)
+    # print(doc_key)
     start_map = collections.defaultdict(list)
     end_map = collections.defaultdict(list)
     word_map = collections.defaultdict(list)
@@ -41,7 +41,7 @@ def output_conll(input_file, output_file, predictions):
     prediction_map[doc_key] = (start_map, end_map, word_map)
 
 
-  print(prediction_map.keys())
+  # print(prediction_map.keys())
 
   word_index = 0
   for line in input_file.readlines():
@@ -49,7 +49,7 @@ def output_conll(input_file, output_file, predictions):
     if len(row) == 0:
       output_file.write("\n")
     elif row[0].startswith("#"):
-      print(row)
+      # print(row)
       begin_match = re.match(BEGIN_DOCUMENT_REGEX, line)
       if begin_match:
         doc_key = get_doc_key(begin_match.group(1))
@@ -58,7 +58,7 @@ def output_conll(input_file, output_file, predictions):
       output_file.write(line)
       output_file.write("\n")
     else:
-      assert get_doc_key(row[0]) == doc_key
+      # assert get_doc_key(row[0]) == doc_key
       coref_list = []
       if word_index in end_map:
         for cluster_id in end_map[word_index]:
@@ -81,9 +81,9 @@ def output_conll(input_file, output_file, predictions):
 
 def official_conll_eval(gold_path, predicted_path, metric, official_stdout=False):
   # 
-  print(metric)
-  print(gold_path)
-  print(predicted_path)
+  # print(metric)
+  # print(gold_path)
+  # print(predicted_path)
   cmd = ["./scorer.pl", metric, gold_path, predicted_path, "none"]
   process = subprocess.Popen(cmd, stdout=subprocess.PIPE)
   stdout, stderr = process.communicate()

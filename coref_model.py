@@ -101,6 +101,7 @@ class CorefModel(object):
     checkpoint_path = os.path.join(self.config["log_dir"], "model.max.ckpt")
     print("Restoring from {}".format(checkpoint_path))
     session.run(tf.global_variables_initializer())
+    
     saver.restore(session, checkpoint_path)
 
   def load_lm_embeddings(self, doc_key):
@@ -140,13 +141,16 @@ class CorefModel(object):
         cluster_ids[gold_mention_map[tuple(mention)]] = cluster_id + 1
 
     sentences = example["sentences"]
+    # print("sentences,", sentences)
     num_words = sum(len(s) for s in sentences)
     speakers = util.flatten(example["speakers"])
 
     assert num_words == len(speakers)
 
     max_sentence_length = max(len(s) for s in sentences)
-    max_word_length = max(max(max(len(w) for w in s) for s in sentences), max(self.config["filter_widths"]))
+    # print(self.config["filter_widths"])
+    # print(max(max(len(w) for w in s) for s in sentences if len(s) > 0))
+    max_word_length = max(max(max(len(w) for w in s) for s in sentences if len(s) > 0), max(self.config["filter_widths"]))
     text_len = np.array([len(s) for s in sentences])
     tokens = [[""] * max_sentence_length for _ in sentences]
     context_word_emb = np.zeros([len(sentences), max_sentence_length, self.context_embeddings.size])
@@ -582,5 +586,12 @@ class CorefModel(object):
     print("Average precision (py): {:.2f}%".format(p * 100))
     summary_dict["Average recall (py)"] = r
     print("Average recall (py): {:.2f}%".format(r * 100))
+
+    output_file = open("train_output.py", 'a+')
+    output_file.write("Average F1 (conll): {:.2f}%".format(average_f1) + '\n')
+    output_file.write("Average F1 (py): {:.2f}%".format(f * 100) + '\n')
+    output_file.write("Average precision (py): {:.2f}%".format(p * 100) + '\n')
+    output_file.write("Average recall (py): {:.2f}%".format(r * 100) + '\n' + '\n')
+    output_file.close()
 
     return util.make_summary(summary_dict), average_f1

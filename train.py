@@ -60,6 +60,8 @@ if __name__ == "__main__":
         eval_summary, eval_f1 = model.evaluate(session)
 
         if eval_f1 > max_f1:
+          print("Im in the max case!")
+          print(log_dir)
           max_f1 = eval_f1
           util.copy_checkpoint(os.path.join(log_dir, "model-{}".format(tf_global_step)), os.path.join(log_dir, "model.max.ckpt"))
 

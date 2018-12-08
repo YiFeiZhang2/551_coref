@@ -31,6 +31,7 @@ class DocumentState(object):
     assert self.doc_key is None
     assert len(self.text) == 0
     assert len(self.text_speakers) == 0
+    print(len(self.speakers), self.speakers)
     assert len(self.speakers) == 0
     assert len(self.sentences) == 0
     assert len(self.constituents) == 0
@@ -128,6 +129,7 @@ def handle_line(line, document_state, language, labels, stats):
   if begin_document_match:
     document_state.assert_empty()
     document_state.doc_key = conll.get_doc_key(begin_document_match.group(1))
+    print(document_state.doc_key)
     return None
   elif line.startswith("#end document"):
     document_state.assert_finalizable()
@@ -149,10 +151,10 @@ def handle_line(line, document_state, language, labels, stats):
       del document_state.text_speakers[:]
       return None
 
-    assert len(row) >= 12
+    if(len(row) < 12):
+      return None
 
     doc_key = conll.get_doc_key(row[0])
-    print(doc_key)
     word = normalize_word(row[3], language)
     parse = row[5]
     speaker = row[9]

@@ -11,11 +11,11 @@ import subprocess
 import operator
 import collections
 
-BEGIN_DOCUMENT_REGEX = re.compile(r"#begin document \((.*)\)")
+BEGIN_DOCUMENT_REGEX = re.compile(r"#begin document (.*)")
 COREF_RESULTS_REGEX = re.compile(r".*Coreference: Recall: \([0-9.]+ / [0-9.]+\) ([0-9.]+)%\tPrecision: \([0-9.]+ / [0-9.]+\) ([0-9.]+)%\tF1: ([0-9.]+)%.*", re.DOTALL)
 
 # def get_doc_key(doc_id, part):
-#   return "{}_{}".format(doc_id, int(part))
+#   return "{}_{}".format(doc_id, part)
 
 def get_doc_key(doc_id):
   return doc_id

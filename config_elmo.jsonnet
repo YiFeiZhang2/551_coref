@@ -8,8 +8,8 @@
         "type": "single_id",
         "lowercase_tokens": false
       },
-
-       "elmo": {
+      
+      "elmo": {
           "type": "elmo_characters"
       }
       ,
@@ -20,9 +20,9 @@
     },
     "max_span_width": 10
   },
-  "train_data_path": std.extVar("COREF_TRAIN_DATA_PATH"),
-  "validation_data_path": std.extVar("COREF_DEV_DATA_PATH"),
-  "test_data_path": std.extVar("COREF_TEST_DATA_PATH"),
+  "train_data_path": "train.english.conll",
+  "validation_data_path": "dev.english.conll",
+  "test_data_path": "test.english.conll",
   "model": {
     "type": "coref",
     "text_field_embedder": {
@@ -48,11 +48,11 @@
         },
         "elmo":{
           "type": "elmo_token_embedder",
-          "options_file": "/elmo_embeddings/elmo_2x4096_512_2048cnn_2xhighway_options.json",
-          "weight_file": "/elmo_embeddings/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5",
+          "options_file": "https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_options.json",
+          "weight_file": "https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5",
           "do_layer_norm": false,
           "dropout": 0
-   }
+        }
       }
     },
     "context_layer": {
@@ -100,14 +100,14 @@
   "trainer": {
     "num_epochs": 150,
     "grad_norm": 5.0,
-    "patience" : 10,
-    "cuda_device" : 0,
+    "patience" : 149,
+    "cuda_device" : -1,
     "validation_metric": "+coref_f1",
     "learning_rate_scheduler": {
       "type": "reduce_on_plateau",
       "factor": 0.5,
       "mode": "max",
-      "patience": 2
+      "patience": 149
     },
     "optimizer": {
       "type": "adam"

@@ -1,0 +1,1294 @@
+0it [00:00, ?it/s]
+1it [00:00,  2.39it/s]
+2it [00:00,  2.62it/s]
+
+0it [00:00, ?it/s]
+2it [00:00, 14.02it/s]
+
+0it [00:00, ?it/s]
+2it [00:00, 18.27it/s]
+
+0it [00:00, ?it/s]
+5it [00:00, 48.30it/s]
+6it [00:00, 53.87it/s]
+
+0it [00:00, ?it/s]
+1527it [00:00, 15268.30it/s]
+4170it [00:00, 17483.18it/s]
+7319it [00:00, 20172.15it/s]
+11312it [00:00, 23686.97it/s]
+15588it [00:00, 27343.31it/s]
+20168it [00:00, 31101.83it/s]
+24975it [00:00, 34782.76it/s]
+30008it [00:00, 38334.75it/s]
+34881it [00:00, 40954.78it/s]
+39531it [00:01, 42471.98it/s]
+44483it [00:01, 44362.65it/s]
+49768it [00:01, 46604.91it/s]
+55930it [00:01, 50279.66it/s]
+62062it [00:01, 53147.45it/s]
+68204it [00:01, 55382.25it/s]
+74423it [00:01, 57245.51it/s]
+80520it [00:01, 58313.48it/s]
+86442it [00:01, 54825.80it/s]
+92031it [00:01, 52693.91it/s]
+97392it [00:02, 52672.59it/s]
+102724it [00:02, 52749.55it/s]
+108044it [00:02, 51912.31it/s]
+113270it [00:02, 51801.92it/s]
+118475it [00:02, 50170.90it/s]
+123576it [00:02, 50418.63it/s]
+128886it [00:02, 51188.57it/s]
+134504it [00:02, 52589.56it/s]
+140424it [00:02, 54407.99it/s]
+146251it [00:02, 55502.50it/s]
+151829it [00:03, 52645.82it/s]
+157144it [00:03, 52403.10it/s]
+162420it [00:03, 52481.13it/s]
+168419it [00:03, 54526.78it/s]
+174624it [00:03, 56584.94it/s]
+180728it [00:03, 57846.06it/s]
+186631it [00:03, 58186.76it/s]
+192478it [00:03, 54349.48it/s]
+197984it [00:03, 52920.91it/s]
+203801it [00:04, 54387.88it/s]
+210009it [00:04, 56480.85it/s]
+216123it [00:04, 57799.53it/s]
+222133it [00:04, 58468.05it/s]
+228128it [00:04, 58900.23it/s]
+234356it [00:04, 59871.52it/s]
+240365it [00:04, 58609.61it/s]
+246247it [00:04, 56509.55it/s]
+252079it [00:04, 57035.44it/s]
+257806it [00:04, 56248.30it/s]
+263450it [00:05, 54422.05it/s]
+268918it [00:05, 53325.59it/s]
+274274it [00:05, 52250.08it/s]
+279520it [00:05, 51851.42it/s]
+284721it [00:05, 51614.44it/s]
+289894it [00:05, 51332.63it/s]
+295084it [00:05, 51500.01it/s]
+300240it [00:05, 50867.96it/s]
+305333it [00:05, 50684.17it/s]
+310426it [00:05, 50754.03it/s]
+315505it [00:06, 47564.90it/s]
+320305it [00:06, 45849.65it/s]
+325018it [00:06, 46225.85it/s]
+330087it [00:06, 47473.50it/s]
+334983it [00:06, 47904.27it/s]
+339796it [00:06, 47464.95it/s]
+344559it [00:06, 47213.63it/s]
+349639it [00:06, 48235.07it/s]
+354818it [00:06, 49243.78it/s]
+359996it [00:07, 49975.56it/s]
+365148it [00:07, 50420.48it/s]
+370324it [00:07, 50810.06it/s]
+375484it [00:07, 51042.23it/s]
+380712it [00:07, 51400.07it/s]
+386017it [00:07, 51877.18it/s]
+391574it [00:07, 52931.20it/s]
+397505it [00:07, 54687.40it/s]
+400000it [00:07, 51454.26it/s]
+
+/Users/ptklein/Library/Python/3.6/lib/python/site-packages/torch/nn/modules/rnn.py:38: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  "num_layers={}".format(dropout, num_layers))
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0053, coref_recall: 0.0377, coref_f1: 0.0051, mention_recall: 0.1460, loss: 8238.4873 ||:  50%|#####     | 1/2 [00:51<00:51, 51.22s/it]
+coref_precision: 0.0133, coref_recall: 0.0160, coref_f1: 0.0119, mention_recall: 0.1052, loss: 9049.8516 ||: 100%|##########| 2/2 [02:36<00:00, 67.50s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.0370, loss: 558.5663 ||:  50%|#####     | 1/2 [00:01<00:01,  1.13s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.0813, loss: 690.4933 ||: 100%|##########| 2/2 [00:02<00:00,  1.16s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.0603, loss: 4510.7793 ||:  50%|#####     | 1/2 [00:48<00:48, 48.62s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.0929, loss: 4440.5757 ||: 100%|##########| 2/2 [02:31<00:00, 64.79s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.1481, loss: 41.8935 ||:  50%|#####     | 1/2 [00:01<00:01,  1.11s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.1625, loss: 89.3197 ||: 100%|##########| 2/2 [00:02<00:00,  1.14s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.1356, loss: 1326.1564 ||:  50%|#####     | 1/2 [01:43<01:43, 103.03s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.1218, loss: 704.1052 ||: 100%|##########| 2/2 [02:29<00:00, 86.05s/it]  
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2037, loss: 85.1928 ||:  50%|#####     | 1/2 [00:00<00:00,  1.04it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.1688, loss: 94.6033 ||: 100%|##########| 2/2 [00:02<00:00,  1.02s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.1175, loss: 214.9580 ||:  50%|#####     | 1/2 [00:46<00:46, 46.94s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.1402, loss: 439.6215 ||: 100%|##########| 2/2 [02:37<00:00, 65.88s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2222, loss: 104.6966 ||:  50%|#####     | 1/2 [00:01<00:01,  1.03s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2062, loss: 108.3942 ||: 100%|##########| 2/2 [00:02<00:00,  1.08s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.1804, loss: 812.3616 ||:  50%|#####     | 1/2 [01:46<01:46, 106.13s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.1867, loss: 592.7872 ||: 100%|##########| 2/2 [02:35<00:00, 88.97s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2407, loss: 67.3095 ||:  50%|#####     | 1/2 [00:01<00:01,  1.02s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2188, loss: 66.0076 ||: 100%|##########| 2/2 [00:02<00:00,  1.15s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2252, loss: 577.0758 ||:  50%|#####     | 1/2 [01:45<01:45, 105.56s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2174, loss: 388.7213 ||: 100%|##########| 2/2 [02:33<00:00, 88.17s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2778, loss: 57.1397 ||:  50%|#####     | 1/2 [00:01<00:01,  1.06s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2437, loss: 81.4457 ||: 100%|##########| 2/2 [00:02<00:00,  1.14s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2254, loss: 274.2723 ||:  50%|#####     | 1/2 [00:47<00:47, 47.35s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2217, loss: 632.1711 ||: 100%|##########| 2/2 [02:34<00:00, 65.14s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2778, loss: 72.6643 ||:  50%|#####     | 1/2 [00:01<00:01,  1.01s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2437, loss: 118.4420 ||: 100%|##########| 2/2 [00:02<00:00,  1.06s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2159, loss: 369.5635 ||:  50%|#####     | 1/2 [00:45<00:45, 45.37s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2252, loss: 692.7864 ||: 100%|##########| 2/2 [02:26<00:00, 61.97s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2778, loss: 66.7665 ||:  50%|#####     | 1/2 [00:00<00:00,  1.00it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2437, loss: 95.0924 ||: 100%|##########| 2/2 [00:02<00:00,  1.04s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2324, loss: 878.4865 ||:  50%|#####     | 1/2 [01:37<01:37, 97.07s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2340, loss: 544.6156 ||: 100%|##########| 2/2 [02:22<00:00, 81.45s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2778, loss: 70.8405 ||:  50%|#####     | 1/2 [00:00<00:00,  1.05it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2500, loss: 75.6863 ||: 100%|##########| 2/2 [00:02<00:00,  1.02s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2361, loss: 574.9972 ||:  50%|#####     | 1/2 [01:37<01:37, 97.13s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2445, loss: 395.3308 ||: 100%|##########| 2/2 [02:22<00:00, 81.47s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2778, loss: 85.4746 ||:  50%|#####     | 1/2 [00:00<00:00,  1.04it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2687, loss: 90.4996 ||: 100%|##########| 2/2 [00:02<00:00,  1.01s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2554, loss: 642.7014 ||:  50%|#####     | 1/2 [01:51<01:51, 111.13s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2550, loss: 442.2575 ||: 100%|##########| 2/2 [02:44<00:00, 93.75s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2778, loss: 86.2341 ||:  50%|#####     | 1/2 [00:01<00:01,  1.08s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2750, loss: 99.1624 ||: 100%|##########| 2/2 [00:02<00:00,  1.13s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2381, loss: 182.2160 ||:  50%|#####     | 1/2 [00:51<00:51, 51.80s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2559, loss: 448.6684 ||: 100%|##########| 2/2 [02:45<00:00, 70.42s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2778, loss: 75.3431 ||:  50%|#####     | 1/2 [00:01<00:01,  1.21s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2687, loss: 89.3236 ||: 100%|##########| 2/2 [00:02<00:00,  1.26s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2627, loss: 602.4148 ||:  50%|#####     | 1/2 [01:47<01:47, 107.23s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2656, loss: 384.9011 ||: 100%|##########| 2/2 [02:36<00:00, 89.70s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2778, loss: 64.1431 ||:  50%|#####     | 1/2 [00:00<00:00,  1.03it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2750, loss: 80.4261 ||: 100%|##########| 2/2 [00:02<00:00,  1.04s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2785, loss: 636.4588 ||:  50%|#####     | 1/2 [01:45<01:45, 105.13s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2805, loss: 414.6147 ||: 100%|##########| 2/2 [02:33<00:00, 88.25s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2778, loss: 60.6318 ||:  50%|#####     | 1/2 [00:01<00:01,  1.09s/it]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2750, loss: 76.1325 ||: 100%|##########| 2/2 [00:02<00:00,  1.16s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2762, loss: 160.3598 ||:  50%|#####     | 1/2 [00:48<00:48, 48.76s/it]
+coref_precision: 0.1919, coref_recall: 0.0003, coref_f1: 0.0005, mention_recall: 0.2796, loss: 396.8341 ||: 100%|##########| 2/2 [02:40<00:00, 67.77s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.0000, coref_recall: 0.0000, coref_f1: 0.0000, mention_recall: 0.2778, loss: 62.5085 ||:  50%|#####     | 1/2 [00:01<00:01,  1.07s/it]
+coref_precision: 0.4241, coref_recall: 0.0210, coref_f1: 0.0399, mention_recall: 0.2812, loss: 75.2165 ||: 100%|##########| 2/2 [00:02<00:00,  1.11s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5312, coref_recall: 0.0041, coref_f1: 0.0080, mention_recall: 0.2785, loss: 571.4891 ||:  50%|#####     | 1/2 [01:48<01:48, 108.16s/it]
+coref_precision: 0.6355, coref_recall: 0.0064, coref_f1: 0.0127, mention_recall: 0.2796, loss: 353.4772 ||: 100%|##########| 2/2 [02:43<00:00, 92.36s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5053, coref_recall: 0.0256, coref_f1: 0.0487, mention_recall: 0.2593, loss: 49.0506 ||:  50%|#####     | 1/2 [00:01<00:01,  1.04s/it]
+coref_precision: 0.4037, coref_recall: 0.0367, coref_f1: 0.0665, mention_recall: 0.2812, loss: 68.6673 ||: 100%|##########| 2/2 [00:02<00:00,  1.12s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8642, coref_recall: 0.0161, coref_f1: 0.0315, mention_recall: 0.2889, loss: 146.1922 ||:  50%|#####     | 1/2 [00:51<00:51, 51.07s/it]
+coref_precision: 0.6397, coref_recall: 0.0161, coref_f1: 0.0313, mention_recall: 0.2770, loss: 340.0306 ||: 100%|##########| 2/2 [02:49<00:00, 71.25s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5053, coref_recall: 0.0256, coref_f1: 0.0487, mention_recall: 0.2593, loss: 47.6143 ||:  50%|#####     | 1/2 [00:01<00:01,  1.10s/it]
+coref_precision: 0.4037, coref_recall: 0.0367, coref_f1: 0.0665, mention_recall: 0.2812, loss: 67.1059 ||: 100%|##########| 2/2 [00:02<00:00,  1.13s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4421, coref_recall: 0.0129, coref_f1: 0.0250, mention_recall: 0.2893, loss: 606.0209 ||:  50%|#####     | 1/2 [01:48<01:48, 108.26s/it]
+coref_precision: 0.5388, coref_recall: 0.0151, coref_f1: 0.0293, mention_recall: 0.2866, loss: 378.2604 ||: 100%|##########| 2/2 [02:36<00:00, 90.16s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5053, coref_recall: 0.0256, coref_f1: 0.0487, mention_recall: 0.2593, loss: 41.3189 ||:  50%|#####     | 1/2 [00:01<00:01,  1.01s/it]
+coref_precision: 0.4037, coref_recall: 0.0367, coref_f1: 0.0665, mention_recall: 0.2687, loss: 55.8924 ||: 100%|##########| 2/2 [00:02<00:00,  1.09s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5060, coref_recall: 0.0263, coref_f1: 0.0498, mention_recall: 0.2760, loss: 562.0420 ||:  50%|#####     | 1/2 [01:46<01:46, 106.06s/it]
+coref_precision: 0.5761, coref_recall: 0.0260, coref_f1: 0.0496, mention_recall: 0.2787, loss: 342.8543 ||: 100%|##########| 2/2 [02:36<00:00, 89.43s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5053, coref_recall: 0.0256, coref_f1: 0.0487, mention_recall: 0.2593, loss: 36.5452 ||:  50%|#####     | 1/2 [00:01<00:01,  1.07s/it]
+coref_precision: 0.4037, coref_recall: 0.0367, coref_f1: 0.0665, mention_recall: 0.2562, loss: 53.0926 ||: 100%|##########| 2/2 [00:02<00:00,  1.17s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4630, coref_recall: 0.0233, coref_f1: 0.0442, mention_recall: 0.2785, loss: 565.1982 ||:  50%|#####     | 1/2 [01:58<01:58, 118.06s/it]
+coref_precision: 0.5469, coref_recall: 0.0247, coref_f1: 0.0472, mention_recall: 0.2822, loss: 354.3071 ||: 100%|##########| 2/2 [02:48<00:00, 97.77s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5053, coref_recall: 0.0256, coref_f1: 0.0487, mention_recall: 0.2778, loss: 37.8592 ||:  50%|#####     | 1/2 [00:01<00:01,  1.08s/it]
+coref_precision: 0.4037, coref_recall: 0.0367, coref_f1: 0.0665, mention_recall: 0.2625, loss: 54.2472 ||: 100%|##########| 2/2 [00:02<00:00,  1.16s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4836, coref_recall: 0.0249, coref_f1: 0.0471, mention_recall: 0.2881, loss: 607.8677 ||:  50%|#####     | 1/2 [01:54<01:54, 114.13s/it]
+coref_precision: 0.5604, coref_recall: 0.0259, coref_f1: 0.0494, mention_recall: 0.2883, loss: 358.1017 ||: 100%|##########| 2/2 [02:43<00:00, 94.83s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5053, coref_recall: 0.0256, coref_f1: 0.0487, mention_recall: 0.2963, loss: 41.0013 ||:  50%|#####     | 1/2 [00:01<00:01,  1.04s/it]
+coref_precision: 0.4037, coref_recall: 0.0367, coref_f1: 0.0665, mention_recall: 0.2812, loss: 64.0224 ||: 100%|##########| 2/2 [00:02<00:00,  1.11s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5056, coref_recall: 0.0237, coref_f1: 0.0451, mention_recall: 0.2906, loss: 653.3636 ||:  50%|#####     | 1/2 [01:47<01:47, 107.49s/it]
+coref_precision: 0.5928, coref_recall: 0.0267, coref_f1: 0.0510, mention_recall: 0.2962, loss: 387.4116 ||: 100%|##########| 2/2 [02:37<00:00, 90.19s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5053, coref_recall: 0.0256, coref_f1: 0.0487, mention_recall: 0.3148, loss: 49.6936 ||:  50%|#####     | 1/2 [00:01<00:01,  1.02s/it]
+coref_precision: 0.4037, coref_recall: 0.0367, coref_f1: 0.0665, mention_recall: 0.3063, loss: 82.9280 ||: 100%|##########| 2/2 [00:02<00:00,  1.08s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4596, coref_recall: 0.0256, coref_f1: 0.0483, mention_recall: 0.3087, loss: 696.6085 ||:  50%|#####     | 1/2 [01:47<01:47, 107.39s/it]
+coref_precision: 0.5887, coref_recall: 0.0346, coref_f1: 0.0652, mention_recall: 0.3085, loss: 416.6948 ||: 100%|##########| 2/2 [02:37<00:00, 90.19s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5053, coref_recall: 0.0256, coref_f1: 0.0487, mention_recall: 0.3333, loss: 54.6640 ||:  50%|#####     | 1/2 [00:01<00:01,  1.02s/it]
+coref_precision: 0.3870, coref_recall: 0.0409, coref_f1: 0.0733, mention_recall: 0.3375, loss: 89.0446 ||: 100%|##########| 2/2 [00:02<00:00,  1.11s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8228, coref_recall: 0.0453, coref_f1: 0.0853, mention_recall: 0.3429, loss: 187.3485 ||:  50%|#####     | 1/2 [00:51<00:51, 51.12s/it]
+coref_precision: 0.5802, coref_recall: 0.0332, coref_f1: 0.0626, mention_recall: 0.3523, loss: 497.7085 ||: 100%|##########| 2/2 [02:41<00:00, 68.82s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5053, coref_recall: 0.0256, coref_f1: 0.0487, mention_recall: 0.2963, loss: 31.7219 ||:  50%|#####     | 1/2 [00:01<00:01,  1.26s/it]
+coref_precision: 0.3678, coref_recall: 0.0413, coref_f1: 0.0735, mention_recall: 0.3250, loss: 71.0601 ||: 100%|##########| 2/2 [00:02<00:00,  1.28s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4888, coref_recall: 0.0280, coref_f1: 0.0529, mention_recall: 0.3571, loss: 803.4474 ||:  50%|#####     | 1/2 [01:46<01:46, 106.47s/it]
+coref_precision: 0.5672, coref_recall: 0.0396, coref_f1: 0.0739, mention_recall: 0.3620, loss: 505.3169 ||: 100%|##########| 2/2 [02:36<00:00, 89.66s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5053, coref_recall: 0.0256, coref_f1: 0.0487, mention_recall: 0.3148, loss: 36.8232 ||:  50%|#####     | 1/2 [00:01<00:01,  1.05s/it]
+coref_precision: 0.4037, coref_recall: 0.0367, coref_f1: 0.0665, mention_recall: 0.3312, loss: 67.1731 ||: 100%|##########| 2/2 [00:02<00:00,  1.11s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8119, coref_recall: 0.0647, coref_f1: 0.1190, mention_recall: 0.4032, loss: 216.2585 ||:  50%|#####     | 1/2 [00:50<00:50, 50.09s/it]
+coref_precision: 0.6014, coref_recall: 0.0375, coref_f1: 0.0704, mention_recall: 0.3926, loss: 544.3696 ||: 100%|##########| 2/2 [02:48<00:00, 70.64s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5053, coref_recall: 0.0256, coref_f1: 0.0487, mention_recall: 0.2778, loss: 25.4505 ||:  50%|#####     | 1/2 [00:01<00:01,  1.09s/it]
+coref_precision: 0.3540, coref_recall: 0.0354, coref_f1: 0.0623, mention_recall: 0.3250, loss: 62.3790 ||: 100%|##########| 2/2 [00:02<00:00,  1.14s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4757, coref_recall: 0.0267, coref_f1: 0.0505, mention_recall: 0.3910, loss: 898.1110 ||:  50%|#####     | 1/2 [01:45<01:45, 105.82s/it]
+coref_precision: 0.5966, coref_recall: 0.0336, coref_f1: 0.0633, mention_recall: 0.3918, loss: 569.3698 ||: 100%|##########| 2/2 [02:36<00:00, 89.30s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5053, coref_recall: 0.0256, coref_f1: 0.0487, mention_recall: 0.2593, loss: 24.0585 ||:  50%|#####     | 1/2 [00:01<00:01,  1.06s/it]
+coref_precision: 0.3866, coref_recall: 0.0480, coref_f1: 0.0821, mention_recall: 0.3125, loss: 60.2353 ||: 100%|##########| 2/2 [00:02<00:00,  1.13s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4669, coref_recall: 0.0305, coref_f1: 0.0569, mention_recall: 0.4007, loss: 951.8116 ||:  50%|#####     | 1/2 [01:49<01:49, 109.05s/it]
+coref_precision: 0.5924, coref_recall: 0.0417, coref_f1: 0.0776, mention_recall: 0.4005, loss: 587.5883 ||: 100%|##########| 2/2 [02:38<00:00, 91.24s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8889, coref_recall: 0.0271, coref_f1: 0.0523, mention_recall: 0.2963, loss: 19.5718 ||:  50%|#####     | 1/2 [00:01<00:01,  1.09s/it]
+coref_precision: 0.4142, coref_recall: 0.0544, coref_f1: 0.0921, mention_recall: 0.3500, loss: 65.0272 ||: 100%|##########| 2/2 [00:02<00:00,  1.15s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4147, coref_recall: 0.0399, coref_f1: 0.0727, mention_recall: 0.4201, loss: 994.7710 ||:  50%|#####     | 1/2 [01:48<01:48, 108.15s/it]
+coref_precision: 0.5427, coref_recall: 0.0533, coref_f1: 0.0968, mention_recall: 0.4233, loss: 625.7182 ||: 100%|##########| 2/2 [02:38<00:00, 90.95s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5972, coref_recall: 0.0388, coref_f1: 0.0724, mention_recall: 0.3148, loss: 18.4777 ||:  50%|#####     | 1/2 [00:01<00:01,  1.13s/it]
+coref_precision: 0.4414, coref_recall: 0.0586, coref_f1: 0.1004, mention_recall: 0.4062, loss: 82.5589 ||: 100%|##########| 2/2 [00:02<00:00,  1.15s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5357, coref_recall: 0.0427, coref_f1: 0.0787, mention_recall: 0.4407, loss: 949.5292 ||:  50%|#####     | 1/2 [01:47<01:47, 107.41s/it]
+coref_precision: 0.6356, coref_recall: 0.0522, coref_f1: 0.0960, mention_recall: 0.4365, loss: 580.5276 ||: 100%|##########| 2/2 [02:39<00:00, 90.78s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8889, coref_recall: 0.0271, coref_f1: 0.0523, mention_recall: 0.3333, loss: 19.2405 ||:  50%|#####     | 1/2 [00:01<00:01,  1.22s/it]
+coref_precision: 0.4542, coref_recall: 0.0537, coref_f1: 0.0931, mention_recall: 0.4375, loss: 92.3469 ||: 100%|##########| 2/2 [00:02<00:00,  1.26s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4989, coref_recall: 0.0268, coref_f1: 0.0503, mention_recall: 0.4794, loss: 1034.8879 ||:  50%|#####     | 1/2 [01:54<01:54, 114.07s/it]
+coref_precision: 0.6174, coref_recall: 0.0415, coref_f1: 0.0774, mention_recall: 0.4724, loss: 642.9122 ||: 100%|##########| 2/2 [02:43<00:00, 94.65s/it]  
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8889, coref_recall: 0.0271, coref_f1: 0.0523, mention_recall: 0.3333, loss: 18.8753 ||:  50%|#####     | 1/2 [00:00<00:00,  1.01it/s]
+coref_precision: 0.4334, coref_recall: 0.0485, coref_f1: 0.0848, mention_recall: 0.4437, loss: 83.9649 ||: 100%|##########| 2/2 [00:02<00:00,  1.06s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.9119, coref_recall: 0.0888, coref_f1: 0.1609, mention_recall: 0.4921, loss: 263.5998 ||:  50%|#####     | 1/2 [00:49<00:49, 49.53s/it]
+coref_precision: 0.6222, coref_recall: 0.0425, coref_f1: 0.0793, mention_recall: 0.4943, loss: 682.8679 ||: 100%|##########| 2/2 [02:39<00:00, 67.55s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8889, coref_recall: 0.0271, coref_f1: 0.0523, mention_recall: 0.3148, loss: 15.8130 ||:  50%|#####     | 1/2 [00:01<00:01,  1.13s/it]
+coref_precision: 0.4413, coref_recall: 0.0579, coref_f1: 0.0997, mention_recall: 0.4375, loss: 72.6074 ||: 100%|##########| 2/2 [00:02<00:00,  1.17s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8950, coref_recall: 0.0875, coref_f1: 0.1586, mention_recall: 0.4794, loss: 280.2941 ||:  50%|#####     | 1/2 [00:55<00:55, 55.58s/it]
+coref_precision: 0.6087, coref_recall: 0.0466, coref_f1: 0.0861, mention_recall: 0.4943, loss: 667.5013 ||: 100%|##########| 2/2 [02:45<00:00, 71.89s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8889, coref_recall: 0.0271, coref_f1: 0.0523, mention_recall: 0.2963, loss: 15.4736 ||:  50%|#####     | 1/2 [00:01<00:01,  1.11s/it]
+coref_precision: 0.4413, coref_recall: 0.0579, coref_f1: 0.0997, mention_recall: 0.4188, loss: 69.1766 ||: 100%|##########| 2/2 [00:02<00:00,  1.17s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8646, coref_recall: 0.1001, coref_f1: 0.1788, mention_recall: 0.4698, loss: 185.8257 ||:  50%|#####     | 1/2 [00:50<00:50, 50.28s/it]
+coref_precision: 0.6114, coref_recall: 0.0440, coref_f1: 0.0816, mention_recall: 0.4943, loss: 603.7241 ||: 100%|##########| 2/2 [02:41<00:00, 68.49s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8889, coref_recall: 0.0271, coref_f1: 0.0523, mention_recall: 0.2963, loss: 13.2029 ||:  50%|#####     | 1/2 [00:01<00:01,  1.17s/it]
+coref_precision: 0.4413, coref_recall: 0.0579, coref_f1: 0.0997, mention_recall: 0.4188, loss: 67.9931 ||: 100%|##########| 2/2 [00:02<00:00,  1.24s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4722, coref_recall: 0.0281, coref_f1: 0.0522, mention_recall: 0.4915, loss: 976.4346 ||:  50%|#####     | 1/2 [01:46<01:46, 106.75s/it]
+coref_precision: 0.6094, coref_recall: 0.0555, coref_f1: 0.1011, mention_recall: 0.4969, loss: 605.8344 ||: 100%|##########| 2/2 [02:37<00:00, 89.85s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.9111, coref_recall: 0.0583, coref_f1: 0.1091, mention_recall: 0.3148, loss: 12.5566 ||:  50%|#####     | 1/2 [00:01<00:01,  1.00s/it]
+coref_precision: 0.4306, coref_recall: 0.0626, coref_f1: 0.1082, mention_recall: 0.4250, loss: 64.9555 ||: 100%|##########| 2/2 [00:02<00:00,  1.06s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8603, coref_recall: 0.1221, coref_f1: 0.2131, mention_recall: 0.5460, loss: 310.7989 ||:  50%|#####     | 1/2 [00:52<00:52, 52.92s/it]
+coref_precision: 0.6266, coref_recall: 0.0766, coref_f1: 0.1359, mention_recall: 0.5171, loss: 607.2596 ||: 100%|##########| 2/2 [02:50<00:00, 72.29s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6680, coref_recall: 0.0765, coref_f1: 0.1370, mention_recall: 0.3889, loss: 23.2072 ||:  50%|#####     | 1/2 [00:01<00:01,  1.08s/it]
+coref_precision: 0.4558, coref_recall: 0.0915, coref_f1: 0.1516, mention_recall: 0.4500, loss: 70.2033 ||: 100%|##########| 2/2 [00:02<00:00,  1.13s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5533, coref_recall: 0.0822, coref_f1: 0.1409, mention_recall: 0.5000, loss: 880.1971 ||:  50%|#####     | 1/2 [01:42<01:42, 102.18s/it]
+coref_precision: 0.6153, coref_recall: 0.1018, coref_f1: 0.1733, mention_recall: 0.5101, loss: 569.7888 ||: 100%|##########| 2/2 [02:28<00:00, 85.29s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6680, coref_recall: 0.0765, coref_f1: 0.1370, mention_recall: 0.3889, loss: 20.8085 ||:  50%|#####     | 1/2 [00:00<00:00,  1.03it/s]
+coref_precision: 0.4564, coref_recall: 0.0933, coref_f1: 0.1545, mention_recall: 0.4562, loss: 67.2036 ||: 100%|##########| 2/2 [00:02<00:00,  1.04s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7052, coref_recall: 0.1329, coref_f1: 0.2231, mention_recall: 0.5302, loss: 264.3412 ||:  50%|#####     | 1/2 [00:46<00:46, 46.25s/it]
+coref_precision: 0.5851, coref_recall: 0.0893, coref_f1: 0.1545, mention_recall: 0.5171, loss: 573.3766 ||: 100%|##########| 2/2 [02:28<00:00, 63.17s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6680, coref_recall: 0.0765, coref_f1: 0.1370, mention_recall: 0.3889, loss: 26.2777 ||:  50%|#####     | 1/2 [00:01<00:01,  1.00s/it]
+coref_precision: 0.4694, coref_recall: 0.0901, coref_f1: 0.1507, mention_recall: 0.4688, loss: 79.5994 ||: 100%|##########| 2/2 [00:02<00:00,  1.05s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8094, coref_recall: 0.1552, coref_f1: 0.2600, mention_recall: 0.5651, loss: 252.4711 ||:  50%|#####     | 1/2 [00:46<00:46, 46.09s/it]
+coref_precision: 0.6007, coref_recall: 0.0931, coref_f1: 0.1602, mention_recall: 0.5530, loss: 605.6114 ||: 100%|##########| 2/2 [02:28<00:00, 63.13s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6680, coref_recall: 0.0765, coref_f1: 0.1370, mention_recall: 0.4074, loss: 26.1084 ||:  50%|#####     | 1/2 [00:01<00:01,  1.07s/it]
+coref_precision: 0.4794, coref_recall: 0.0859, coref_f1: 0.1451, mention_recall: 0.4750, loss: 75.1105 ||: 100%|##########| 2/2 [00:02<00:00,  1.10s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5359, coref_recall: 0.0946, coref_f1: 0.1590, mention_recall: 0.5339, loss: 936.5245 ||:  50%|#####     | 1/2 [01:54<01:54, 114.34s/it]
+coref_precision: 0.6039, coref_recall: 0.1060, coref_f1: 0.1791, mention_recall: 0.5460, loss: 603.7173 ||: 100%|##########| 2/2 [02:45<00:00, 95.50s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6889, coref_recall: 0.0596, coref_f1: 0.1096, mention_recall: 0.4074, loss: 24.2597 ||:  50%|#####     | 1/2 [00:01<00:01,  1.03s/it]
+coref_precision: 0.4818, coref_recall: 0.0806, coref_f1: 0.1370, mention_recall: 0.4750, loss: 74.0178 ||: 100%|##########| 2/2 [00:02<00:00,  1.10s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8196, coref_recall: 0.1413, coref_f1: 0.2403, mention_recall: 0.5841, loss: 247.8241 ||:  50%|#####     | 1/2 [00:50<00:50, 50.72s/it]
+coref_precision: 0.6397, coref_recall: 0.0899, coref_f1: 0.1565, mention_recall: 0.5504, loss: 557.9086 ||: 100%|##########| 2/2 [02:51<00:00, 71.78s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6889, coref_recall: 0.0596, coref_f1: 0.1096, mention_recall: 0.3889, loss: 16.8999 ||:  50%|#####     | 1/2 [00:01<00:01,  1.19s/it]
+coref_precision: 0.4835, coref_recall: 0.0650, coref_f1: 0.1116, mention_recall: 0.4688, loss: 78.9592 ||: 100%|##########| 2/2 [00:02<00:00,  1.21s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8467, coref_recall: 0.0877, coref_f1: 0.1582, mention_recall: 0.5651, loss: 242.2301 ||:  50%|#####     | 1/2 [00:49<00:49, 49.77s/it]
+coref_precision: 0.6227, coref_recall: 0.0801, coref_f1: 0.1399, mention_recall: 0.5513, loss: 571.1275 ||: 100%|##########| 2/2 [02:41<00:00, 68.28s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6680, coref_recall: 0.0765, coref_f1: 0.1370, mention_recall: 0.3889, loss: 18.9438 ||:  50%|#####     | 1/2 [00:01<00:01,  1.10s/it]
+coref_precision: 0.4430, coref_recall: 0.0859, coref_f1: 0.1435, mention_recall: 0.4688, loss: 72.1488 ||: 100%|##########| 2/2 [00:02<00:00,  1.15s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8100, coref_recall: 0.1453, coref_f1: 0.2458, mention_recall: 0.5905, loss: 228.1687 ||:  50%|#####     | 1/2 [00:51<00:51, 51.18s/it]
+coref_precision: 0.6252, coref_recall: 0.1251, coref_f1: 0.2075, mention_recall: 0.5627, loss: 553.7481 ||: 100%|##########| 2/2 [02:39<00:00, 68.24s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6680, coref_recall: 0.0765, coref_f1: 0.1370, mention_recall: 0.3889, loss: 16.7468 ||:  50%|#####     | 1/2 [00:01<00:01,  1.13s/it]
+coref_precision: 0.4430, coref_recall: 0.0859, coref_f1: 0.1435, mention_recall: 0.4688, loss: 69.4900 ||: 100%|##########| 2/2 [00:02<00:00,  1.19s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7582, coref_recall: 0.1406, coref_f1: 0.2347, mention_recall: 0.6000, loss: 253.7026 ||:  50%|#####     | 1/2 [00:50<00:50, 50.89s/it]
+coref_precision: 0.6255, coref_recall: 0.1091, coref_f1: 0.1853, mention_recall: 0.5688, loss: 575.0593 ||: 100%|##########| 2/2 [02:41<00:00, 68.88s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6680, coref_recall: 0.0765, coref_f1: 0.1370, mention_recall: 0.4259, loss: 24.5291 ||:  50%|#####     | 1/2 [00:01<00:01,  1.14s/it]
+coref_precision: 0.5047, coref_recall: 0.0892, coref_f1: 0.1503, mention_recall: 0.4813, loss: 74.9144 ||: 100%|##########| 2/2 [00:02<00:00,  1.22s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8097, coref_recall: 0.1576, coref_f1: 0.2633, mention_recall: 0.5937, loss: 226.5734 ||:  50%|#####     | 1/2 [00:52<00:52, 52.31s/it]
+coref_precision: 0.5907, coref_recall: 0.1161, coref_f1: 0.1928, mention_recall: 0.5776, loss: 553.7483 ||: 100%|##########| 2/2 [02:33<00:00, 66.89s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6680, coref_recall: 0.0765, coref_f1: 0.1370, mention_recall: 0.4259, loss: 25.0628 ||:  50%|#####     | 1/2 [00:01<00:01,  1.01s/it]
+coref_precision: 0.4879, coref_recall: 0.0924, coref_f1: 0.1544, mention_recall: 0.4875, loss: 76.2769 ||: 100%|##########| 2/2 [00:02<00:00,  1.05s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8347, coref_recall: 0.1812, coref_f1: 0.2971, mention_recall: 0.5968, loss: 228.9003 ||:  50%|#####     | 1/2 [00:46<00:46, 46.25s/it]
+coref_precision: 0.5983, coref_recall: 0.1353, coref_f1: 0.2193, mention_recall: 0.5811, loss: 567.8344 ||: 100%|##########| 2/2 [02:35<00:00, 65.24s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5210, coref_recall: 0.0765, coref_f1: 0.1330, mention_recall: 0.4259, loss: 28.4588 ||:  50%|#####     | 1/2 [00:01<00:01,  1.09s/it]
+coref_precision: 0.4662, coref_recall: 0.1458, coref_f1: 0.2204, mention_recall: 0.4875, loss: 77.0916 ||: 100%|##########| 2/2 [00:02<00:00,  1.15s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7347, coref_recall: 0.1866, coref_f1: 0.2969, mention_recall: 0.6032, loss: 218.7767 ||:  50%|#####     | 1/2 [00:49<00:49, 49.95s/it]
+coref_precision: 0.6090, coref_recall: 0.1396, coref_f1: 0.2253, mention_recall: 0.5898, loss: 574.1414 ||: 100%|##########| 2/2 [02:50<00:00, 71.26s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5210, coref_recall: 0.0765, coref_f1: 0.1330, mention_recall: 0.4259, loss: 28.2201 ||:  50%|#####     | 1/2 [00:01<00:01,  1.15s/it]
+coref_precision: 0.4662, coref_recall: 0.1458, coref_f1: 0.2204, mention_recall: 0.4875, loss: 76.1936 ||: 100%|##########| 2/2 [00:02<00:00,  1.20s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5167, coref_recall: 0.1369, coref_f1: 0.2121, mention_recall: 0.5787, loss: 897.1629 ||:  50%|#####     | 1/2 [02:00<02:00, 120.85s/it]
+coref_precision: 0.5923, coref_recall: 0.1515, coref_f1: 0.2383, mention_recall: 0.5907, loss: 573.7538 ||: 100%|##########| 2/2 [02:51<00:00, 99.90s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6680, coref_recall: 0.0765, coref_f1: 0.1370, mention_recall: 0.4630, loss: 31.4875 ||:  50%|#####     | 1/2 [00:01<00:01,  1.13s/it]
+coref_precision: 0.4958, coref_recall: 0.0980, coref_f1: 0.1624, mention_recall: 0.5000, loss: 71.3920 ||: 100%|##########| 2/2 [00:02<00:00,  1.21s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5879, coref_recall: 0.1088, coref_f1: 0.1807, mention_recall: 0.5738, loss: 794.3457 ||:  50%|#####     | 1/2 [01:59<01:59, 119.03s/it]
+coref_precision: 0.6529, coref_recall: 0.1282, coref_f1: 0.2121, mention_recall: 0.5863, loss: 516.9640 ||: 100%|##########| 2/2 [02:49<00:00, 98.49s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6680, coref_recall: 0.0765, coref_f1: 0.1370, mention_recall: 0.4444, loss: 27.6237 ||:  50%|#####     | 1/2 [00:01<00:01,  1.23s/it]
+coref_precision: 0.5391, coref_recall: 0.1401, coref_f1: 0.2220, mention_recall: 0.4938, loss: 71.8496 ||: 100%|##########| 2/2 [00:02<00:00,  1.28s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5431, coref_recall: 0.1312, coref_f1: 0.2101, mention_recall: 0.5920, loss: 868.7076 ||:  50%|#####     | 1/2 [02:00<02:00, 120.18s/it]
+coref_precision: 0.6381, coref_recall: 0.1552, coref_f1: 0.2486, mention_recall: 0.5995, loss: 539.0561 ||: 100%|##########| 2/2 [02:53<00:00, 100.17s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6889, coref_recall: 0.0596, coref_f1: 0.1096, mention_recall: 0.4444, loss: 24.3685 ||:  50%|#####     | 1/2 [00:01<00:01,  1.06s/it]
+coref_precision: 0.5470, coref_recall: 0.1177, coref_f1: 0.1923, mention_recall: 0.4938, loss: 65.5190 ||: 100%|##########| 2/2 [00:02<00:00,  1.09s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7644, coref_recall: 0.1963, coref_f1: 0.3115, mention_recall: 0.6381, loss: 259.3366 ||:  50%|#####     | 1/2 [00:53<00:53, 53.13s/it]
+coref_precision: 0.6412, coref_recall: 0.1324, coref_f1: 0.2182, mention_recall: 0.6039, loss: 547.0753 ||: 100%|##########| 2/2 [02:51<00:00, 72.58s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6889, coref_recall: 0.0596, coref_f1: 0.1096, mention_recall: 0.4630, loss: 28.1039 ||:  50%|#####     | 1/2 [00:01<00:01,  1.17s/it]
+coref_precision: 0.5411, coref_recall: 0.1121, coref_f1: 0.1846, mention_recall: 0.5000, loss: 70.3942 ||: 100%|##########| 2/2 [00:02<00:00,  1.24s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5479, coref_recall: 0.1063, coref_f1: 0.1761, mention_recall: 0.5969, loss: 880.4398 ||:  50%|#####     | 1/2 [01:49<01:49, 109.17s/it]
+coref_precision: 0.6373, coref_recall: 0.1427, coref_f1: 0.2318, mention_recall: 0.6082, loss: 542.5632 ||: 100%|##########| 2/2 [02:38<00:00, 91.33s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6680, coref_recall: 0.0765, coref_f1: 0.1370, mention_recall: 0.4630, loss: 32.3114 ||:  50%|#####     | 1/2 [00:01<00:01,  1.04s/it]
+coref_precision: 0.5608, coref_recall: 0.1737, coref_f1: 0.2635, mention_recall: 0.5000, loss: 71.1467 ||: 100%|##########| 2/2 [00:02<00:00,  1.10s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7498, coref_recall: 0.2385, coref_f1: 0.3612, mention_recall: 0.6286, loss: 259.2901 ||:  50%|#####     | 1/2 [00:53<00:53, 53.44s/it]
+coref_precision: 0.6396, coref_recall: 0.1731, coref_f1: 0.2698, mention_recall: 0.6030, loss: 525.1886 ||: 100%|##########| 2/2 [02:45<00:00, 70.89s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6889, coref_recall: 0.0596, coref_f1: 0.1096, mention_recall: 0.4815, loss: 40.4427 ||:  50%|#####     | 1/2 [00:01<00:01,  1.18s/it]
+coref_precision: 0.5765, coref_recall: 0.1173, coref_f1: 0.1940, mention_recall: 0.5000, loss: 69.3961 ||: 100%|##########| 2/2 [00:02<00:00,  1.23s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8760, coref_recall: 0.1650, coref_f1: 0.2767, mention_recall: 0.6317, loss: 259.4926 ||:  50%|#####     | 1/2 [00:49<00:49, 49.68s/it]
+coref_precision: 0.6737, coref_recall: 0.1312, coref_f1: 0.2157, mention_recall: 0.6065, loss: 555.2161 ||: 100%|##########| 2/2 [02:49<00:00, 70.83s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6680, coref_recall: 0.0765, coref_f1: 0.1370, mention_recall: 0.4815, loss: 38.9953 ||:  50%|#####     | 1/2 [00:01<00:01,  1.09s/it]
+coref_precision: 0.5545, coref_recall: 0.1737, coref_f1: 0.2627, mention_recall: 0.5000, loss: 65.6287 ||: 100%|##########| 2/2 [00:02<00:00,  1.16s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8530, coref_recall: 0.2223, coref_f1: 0.3519, mention_recall: 0.6476, loss: 235.8718 ||:  50%|#####     | 1/2 [00:50<00:50, 50.55s/it]
+coref_precision: 0.6171, coref_recall: 0.2006, coref_f1: 0.3013, mention_recall: 0.6126, loss: 532.3261 ||: 100%|##########| 2/2 [02:51<00:00, 71.73s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4444, coref_recall: 0.0765, coref_f1: 0.1304, mention_recall: 0.4815, loss: 44.5526 ||:  50%|#####     | 1/2 [00:01<00:01,  1.06s/it]
+coref_precision: 0.5024, coref_recall: 0.1850, coref_f1: 0.2661, mention_recall: 0.5062, loss: 77.1320 ||: 100%|##########| 2/2 [00:02<00:00,  1.15s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7620, coref_recall: 0.2622, coref_f1: 0.3896, mention_recall: 0.6571, loss: 261.2974 ||:  50%|#####     | 1/2 [00:51<00:51, 51.49s/it]
+coref_precision: 0.6208, coref_recall: 0.2033, coref_f1: 0.3051, mention_recall: 0.6328, loss: 583.6722 ||: 100%|##########| 2/2 [02:41<00:00, 68.98s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5210, coref_recall: 0.0765, coref_f1: 0.1330, mention_recall: 0.4815, loss: 40.0889 ||:  50%|#####     | 1/2 [00:01<00:01,  1.08s/it]
+coref_precision: 0.6003, coref_recall: 0.1749, coref_f1: 0.2702, mention_recall: 0.5062, loss: 70.3533 ||: 100%|##########| 2/2 [00:02<00:00,  1.12s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6343, coref_recall: 0.1541, coref_f1: 0.2436, mention_recall: 0.6090, loss: 790.7406 ||:  50%|#####     | 1/2 [01:50<01:50, 110.14s/it]
+coref_precision: 0.6967, coref_recall: 0.1745, coref_f1: 0.2764, mention_recall: 0.6258, loss: 522.4606 ||: 100%|##########| 2/2 [02:41<00:00, 92.55s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5210, coref_recall: 0.0765, coref_f1: 0.1330, mention_recall: 0.4815, loss: 40.3428 ||:  50%|#####     | 1/2 [00:01<00:01,  1.08s/it]
+coref_precision: 0.6089, coref_recall: 0.1739, coref_f1: 0.2703, mention_recall: 0.5062, loss: 69.7368 ||: 100%|##########| 2/2 [00:02<00:00,  1.21s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8758, coref_recall: 0.2084, coref_f1: 0.3361, mention_recall: 0.6889, loss: 265.4025 ||:  50%|#####     | 1/2 [00:56<00:56, 56.84s/it]
+coref_precision: 0.6578, coref_recall: 0.1771, coref_f1: 0.2750, mention_recall: 0.6372, loss: 528.7407 ||: 100%|##########| 2/2 [02:54<00:00, 74.94s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5210, coref_recall: 0.0765, coref_f1: 0.1330, mention_recall: 0.4815, loss: 44.1775 ||:  50%|#####     | 1/2 [00:01<00:01,  1.10s/it]
+coref_precision: 0.5383, coref_recall: 0.1892, coref_f1: 0.2788, mention_recall: 0.5062, loss: 72.8143 ||: 100%|##########| 2/2 [00:02<00:00,  1.15s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5864, coref_recall: 0.1804, coref_f1: 0.2711, mention_recall: 0.6235, loss: 903.6639 ||:  50%|#####     | 1/2 [01:55<01:55, 115.61s/it]
+coref_precision: 0.6292, coref_recall: 0.2021, coref_f1: 0.3020, mention_recall: 0.6363, loss: 561.6388 ||: 100%|##########| 2/2 [02:47<00:00, 96.45s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5210, coref_recall: 0.0765, coref_f1: 0.1330, mention_recall: 0.5000, loss: 39.1696 ||:  50%|#####     | 1/2 [00:01<00:01,  1.07s/it]
+coref_precision: 0.5820, coref_recall: 0.1739, coref_f1: 0.2676, mention_recall: 0.5125, loss: 68.2028 ||: 100%|##########| 2/2 [00:02<00:00,  1.13s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8262, coref_recall: 0.2278, coref_f1: 0.3559, mention_recall: 0.6952, loss: 264.5246 ||:  50%|#####     | 1/2 [00:48<00:48, 48.38s/it]
+coref_precision: 0.7077, coref_recall: 0.1543, coref_f1: 0.2485, mention_recall: 0.6529, loss: 586.0113 ||: 100%|##########| 2/2 [02:37<00:00, 66.55s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6680, coref_recall: 0.0765, coref_f1: 0.1370, mention_recall: 0.5000, loss: 37.7325 ||:  50%|#####     | 1/2 [00:01<00:01,  1.31s/it]
+coref_precision: 0.5741, coref_recall: 0.1494, coref_f1: 0.2370, mention_recall: 0.5188, loss: 61.3067 ||: 100%|##########| 2/2 [00:02<00:00,  1.37s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6250, coref_recall: 0.1339, coref_f1: 0.2148, mention_recall: 0.6295, loss: 856.9549 ||:  50%|#####     | 1/2 [01:55<01:55, 115.59s/it]
+coref_precision: 0.6958, coref_recall: 0.1678, coref_f1: 0.2667, mention_recall: 0.6486, loss: 551.8687 ||: 100%|##########| 2/2 [02:47<00:00, 96.38s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.3877, coref_recall: 0.0980, coref_f1: 0.1560, mention_recall: 0.5000, loss: 43.6583 ||:  50%|#####     | 1/2 [00:01<00:01,  1.04s/it]
+coref_precision: 0.5100, coref_recall: 0.2078, coref_f1: 0.2933, mention_recall: 0.5250, loss: 76.8011 ||: 100%|##########| 2/2 [00:02<00:00,  1.10s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5520, coref_recall: 0.2099, coref_f1: 0.3009, mention_recall: 0.6344, loss: 845.1101 ||:  50%|#####     | 1/2 [01:56<01:56, 116.56s/it]
+coref_precision: 0.6168, coref_recall: 0.2316, coref_f1: 0.3347, mention_recall: 0.6556, loss: 551.7136 ||: 100%|##########| 2/2 [02:45<00:00, 96.40s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6680, coref_recall: 0.0765, coref_f1: 0.1370, mention_recall: 0.5000, loss: 37.8342 ||:  50%|#####     | 1/2 [00:01<00:01,  1.09s/it]
+coref_precision: 0.6243, coref_recall: 0.2029, coref_f1: 0.3052, mention_recall: 0.5375, loss: 77.2368 ||: 100%|##########| 2/2 [00:02<00:00,  1.16s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6175, coref_recall: 0.1712, coref_f1: 0.2622, mention_recall: 0.6380, loss: 852.6063 ||:  50%|#####     | 1/2 [02:00<02:00, 120.20s/it]
+coref_precision: 0.6797, coref_recall: 0.1897, coref_f1: 0.2928, mention_recall: 0.6608, loss: 565.2135 ||: 100%|##########| 2/2 [02:47<00:00, 98.27s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6680, coref_recall: 0.0765, coref_f1: 0.1370, mention_recall: 0.5000, loss: 37.9546 ||:  50%|#####     | 1/2 [00:00<00:00,  1.02it/s]
+coref_precision: 0.5513, coref_recall: 0.1952, coref_f1: 0.2855, mention_recall: 0.5437, loss: 76.1529 ||: 100%|##########| 2/2 [00:02<00:00,  1.04s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6225, coref_recall: 0.2076, coref_f1: 0.3085, mention_recall: 0.6453, loss: 835.7245 ||:  50%|#####     | 1/2 [01:54<01:54, 114.42s/it]
+coref_precision: 0.6709, coref_recall: 0.2350, coref_f1: 0.3462, mention_recall: 0.6705, loss: 575.0319 ||: 100%|##########| 2/2 [02:49<00:00, 96.64s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4317, coref_recall: 0.0906, coref_f1: 0.1497, mention_recall: 0.5000, loss: 42.0689 ||:  50%|#####     | 1/2 [00:01<00:01,  1.06s/it]
+coref_precision: 0.4640, coref_recall: 0.2012, coref_f1: 0.2765, mention_recall: 0.5375, loss: 70.0035 ||: 100%|##########| 2/2 [00:02<00:00,  1.12s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7721, coref_recall: 0.2970, coref_f1: 0.4283, mention_recall: 0.7302, loss: 290.3640 ||:  50%|#####     | 1/2 [00:52<00:52, 52.31s/it]
+coref_precision: 0.6371, coref_recall: 0.2206, coref_f1: 0.3262, mention_recall: 0.6827, loss: 598.5942 ||: 100%|##########| 2/2 [02:52<00:00, 72.70s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6889, coref_recall: 0.0596, coref_f1: 0.1096, mention_recall: 0.5000, loss: 35.5472 ||:  50%|#####     | 1/2 [00:01<00:01,  1.13s/it]
+coref_precision: 0.5741, coref_recall: 0.1573, coref_f1: 0.2435, mention_recall: 0.5375, loss: 61.6859 ||: 100%|##########| 2/2 [00:02<00:00,  1.19s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8836, coref_recall: 0.2529, coref_f1: 0.3925, mention_recall: 0.7460, loss: 304.9055 ||:  50%|#####     | 1/2 [00:49<00:49, 49.02s/it]
+coref_precision: 0.7078, coref_recall: 0.1931, coref_f1: 0.2994, mention_recall: 0.6880, loss: 620.5484 ||: 100%|##########| 2/2 [02:39<00:00, 67.46s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6680, coref_recall: 0.0765, coref_f1: 0.1370, mention_recall: 0.5000, loss: 33.0978 ||:  50%|#####     | 1/2 [00:01<00:01,  1.12s/it]
+coref_precision: 0.6430, coref_recall: 0.1897, coref_f1: 0.2921, mention_recall: 0.5375, loss: 63.4062 ||: 100%|##########| 2/2 [00:02<00:00,  1.16s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6257, coref_recall: 0.1811, coref_f1: 0.2774, mention_recall: 0.6659, loss: 852.4355 ||:  50%|#####     | 1/2 [01:52<01:52, 112.13s/it]
+coref_precision: 0.6848, coref_recall: 0.2172, coref_f1: 0.3272, mention_recall: 0.6819, loss: 558.9480 ||: 100%|##########| 2/2 [02:42<00:00, 93.55s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4444, coref_recall: 0.0765, coref_f1: 0.1304, mention_recall: 0.5000, loss: 40.3007 ||:  50%|#####     | 1/2 [00:01<00:01,  1.08s/it]
+coref_precision: 0.4980, coref_recall: 0.1949, coref_f1: 0.2768, mention_recall: 0.5437, loss: 67.7274 ||: 100%|##########| 2/2 [00:02<00:00,  1.17s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5556, coref_recall: 0.2355, coref_f1: 0.3300, mention_recall: 0.6538, loss: 822.1332 ||:  50%|#####     | 1/2 [01:45<01:45, 105.53s/it]
+coref_precision: 0.6324, coref_recall: 0.2554, coref_f1: 0.3630, mention_recall: 0.6775, loss: 540.6802 ||: 100%|##########| 2/2 [02:34<00:00, 88.46s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6680, coref_recall: 0.0765, coref_f1: 0.1370, mention_recall: 0.5000, loss: 37.4863 ||:  50%|#####     | 1/2 [00:01<00:01,  1.06s/it]
+coref_precision: 0.5956, coref_recall: 0.1861, coref_f1: 0.2814, mention_recall: 0.5375, loss: 62.6549 ||: 100%|##########| 2/2 [00:02<00:00,  1.10s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5949, coref_recall: 0.1807, coref_f1: 0.2736, mention_recall: 0.6695, loss: 859.8932 ||:  50%|#####     | 1/2 [01:50<01:50, 110.29s/it]
+coref_precision: 0.6686, coref_recall: 0.2042, coref_f1: 0.3099, mention_recall: 0.6976, loss: 593.3242 ||: 100%|##########| 2/2 [02:39<00:00, 91.97s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5210, coref_recall: 0.0765, coref_f1: 0.1330, mention_recall: 0.5000, loss: 37.7639 ||:  50%|#####     | 1/2 [00:01<00:01,  1.04s/it]
+coref_precision: 0.5128, coref_recall: 0.1886, coref_f1: 0.2736, mention_recall: 0.5375, loss: 63.2183 ||: 100%|##########| 2/2 [00:02<00:00,  1.11s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6275, coref_recall: 0.1961, coref_f1: 0.2922, mention_recall: 0.6683, loss: 794.6317 ||:  50%|#####     | 1/2 [01:47<01:47, 107.12s/it]
+coref_precision: 0.6880, coref_recall: 0.2325, coref_f1: 0.3431, mention_recall: 0.6906, loss: 528.2681 ||: 100%|##########| 2/2 [02:35<00:00, 89.60s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4429, coref_recall: 0.1321, coref_f1: 0.2031, mention_recall: 0.5000, loss: 41.6678 ||:  50%|#####     | 1/2 [00:01<00:01,  1.05s/it]
+coref_precision: 0.4599, coref_recall: 0.2115, coref_f1: 0.2856, mention_recall: 0.5500, loss: 73.4452 ||: 100%|##########| 2/2 [00:02<00:00,  1.09s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5237, coref_recall: 0.2439, coref_f1: 0.3302, mention_recall: 0.6707, loss: 832.9485 ||:  50%|#####     | 1/2 [01:47<01:47, 107.02s/it]
+coref_precision: 0.5861, coref_recall: 0.2694, coref_f1: 0.3672, mention_recall: 0.6950, loss: 560.1833 ||: 100%|##########| 2/2 [02:36<00:00, 89.69s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6889, coref_recall: 0.0596, coref_f1: 0.1096, mention_recall: 0.5185, loss: 32.6875 ||:  50%|#####     | 1/2 [00:01<00:01,  1.09s/it]
+coref_precision: 0.6323, coref_recall: 0.1870, coref_f1: 0.2878, mention_recall: 0.5750, loss: 68.9109 ||: 100%|##########| 2/2 [00:02<00:00,  1.14s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8112, coref_recall: 0.2474, coref_f1: 0.3776, mention_recall: 0.7492, loss: 262.5446 ||:  50%|#####     | 1/2 [00:49<00:49, 49.98s/it]
+coref_precision: 0.6697, coref_recall: 0.1864, coref_f1: 0.2863, mention_recall: 0.7029, loss: 577.6082 ||: 100%|##########| 2/2 [02:41<00:00, 68.49s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5627, coref_recall: 0.0819, coref_f1: 0.1423, mention_recall: 0.5185, loss: 31.6247 ||:  50%|#####     | 1/2 [00:01<00:01,  1.18s/it]
+coref_precision: 0.5988, coref_recall: 0.1731, coref_f1: 0.2679, mention_recall: 0.5813, loss: 68.5334 ||: 100%|##########| 2/2 [00:02<00:00,  1.21s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6597, coref_recall: 0.2112, coref_f1: 0.3124, mention_recall: 0.6840, loss: 832.6375 ||:  50%|#####     | 1/2 [01:47<01:47, 107.40s/it]
+coref_precision: 0.7109, coref_recall: 0.2477, coref_f1: 0.3617, mention_recall: 0.7038, loss: 521.5745 ||: 100%|##########| 2/2 [02:38<00:00, 90.39s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.3943, coref_recall: 0.1454, coref_f1: 0.2122, mention_recall: 0.5185, loss: 42.6564 ||:  50%|#####     | 1/2 [00:01<00:01,  1.10s/it]
+coref_precision: 0.4292, coref_recall: 0.2266, coref_f1: 0.2935, mention_recall: 0.5625, loss: 78.7806 ||: 100%|##########| 2/2 [00:02<00:00,  1.15s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7341, coref_recall: 0.3726, coref_f1: 0.4932, mention_recall: 0.7556, loss: 243.0359 ||:  50%|#####     | 1/2 [00:49<00:49, 49.87s/it]
+coref_precision: 0.5881, coref_recall: 0.2922, coref_f1: 0.3891, mention_recall: 0.7038, loss: 538.1943 ||: 100%|##########| 2/2 [02:43<00:00, 69.05s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4192, coref_recall: 0.0945, coref_f1: 0.1541, mention_recall: 0.5185, loss: 34.5023 ||:  50%|#####     | 1/2 [00:01<00:01,  1.15s/it]
+coref_precision: 0.4364, coref_recall: 0.1992, coref_f1: 0.2682, mention_recall: 0.5625, loss: 74.2904 ||: 100%|##########| 2/2 [00:02<00:00,  1.18s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5909, coref_recall: 0.2529, coref_f1: 0.3499, mention_recall: 0.6768, loss: 782.0522 ||:  50%|#####     | 1/2 [01:54<01:54, 114.48s/it]
+coref_precision: 0.6537, coref_recall: 0.2619, coref_f1: 0.3708, mention_recall: 0.6968, loss: 515.0993 ||: 100%|##########| 2/2 [02:45<00:00, 95.47s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6889, coref_recall: 0.0596, coref_f1: 0.1096, mention_recall: 0.5185, loss: 33.9883 ||:  50%|#####     | 1/2 [00:00<00:00,  1.02it/s]
+coref_precision: 0.6343, coref_recall: 0.1780, coref_f1: 0.2768, mention_recall: 0.5750, loss: 72.9382 ||: 100%|##########| 2/2 [00:02<00:00,  1.20s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8780, coref_recall: 0.2984, coref_f1: 0.4438, mention_recall: 0.7714, loss: 243.7222 ||:  50%|#####     | 1/2 [00:49<00:49, 49.02s/it]
+coref_precision: 0.7051, coref_recall: 0.2092, coref_f1: 0.3171, mention_recall: 0.7134, loss: 561.9832 ||: 100%|##########| 2/2 [02:44<00:00, 68.95s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5627, coref_recall: 0.0819, coref_f1: 0.1423, mention_recall: 0.5370, loss: 30.0753 ||:  50%|#####     | 1/2 [00:01<00:01,  1.04s/it]
+coref_precision: 0.6206, coref_recall: 0.2069, coref_f1: 0.3089, mention_recall: 0.5938, loss: 79.7522 ||: 100%|##########| 2/2 [00:02<00:00,  1.10s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8220, coref_recall: 0.3476, coref_f1: 0.4878, mention_recall: 0.7746, loss: 223.2258 ||:  50%|#####     | 1/2 [00:53<00:53, 53.78s/it]
+coref_precision: 0.6641, coref_recall: 0.2648, coref_f1: 0.3760, mention_recall: 0.7204, loss: 546.7806 ||: 100%|##########| 2/2 [02:46<00:00, 71.32s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4441, coref_recall: 0.1313, coref_f1: 0.2022, mention_recall: 0.5370, loss: 33.9561 ||:  50%|#####     | 1/2 [00:01<00:01,  1.09s/it]
+coref_precision: 0.5031, coref_recall: 0.2128, coref_f1: 0.2970, mention_recall: 0.5875, loss: 79.4126 ||: 100%|##########| 2/2 [00:02<00:00,  1.12s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5833, coref_recall: 0.2500, coref_f1: 0.3489, mention_recall: 0.6961, loss: 850.8193 ||:  50%|#####     | 1/2 [01:50<01:50, 110.58s/it]
+coref_precision: 0.6579, coref_recall: 0.2848, coref_f1: 0.3966, mention_recall: 0.7195, loss: 535.3023 ||: 100%|##########| 2/2 [02:40<00:00, 92.43s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6889, coref_recall: 0.0596, coref_f1: 0.1096, mention_recall: 0.5370, loss: 30.7344 ||:  50%|#####     | 1/2 [00:01<00:01,  1.08s/it]
+coref_precision: 0.6509, coref_recall: 0.1979, coref_f1: 0.3015, mention_recall: 0.5938, loss: 75.4283 ||: 100%|##########| 2/2 [00:02<00:00,  1.16s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6199, coref_recall: 0.2139, coref_f1: 0.3120, mention_recall: 0.6852, loss: 770.8914 ||:  50%|#####     | 1/2 [01:50<01:50, 110.57s/it]
+coref_precision: 0.6872, coref_recall: 0.2416, coref_f1: 0.3533, mention_recall: 0.7125, loss: 506.7913 ||: 100%|##########| 2/2 [02:38<00:00, 91.85s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4444, coref_recall: 0.0765, coref_f1: 0.1304, mention_recall: 0.5370, loss: 33.8958 ||:  50%|#####     | 1/2 [00:01<00:01,  1.11s/it]
+coref_precision: 0.5535, coref_recall: 0.2178, coref_f1: 0.3115, mention_recall: 0.5875, loss: 73.5532 ||: 100%|##########| 2/2 [00:02<00:00,  1.18s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6305, coref_recall: 0.2372, coref_f1: 0.3403, mention_recall: 0.6998, loss: 789.2899 ||:  50%|#####     | 1/2 [01:44<01:44, 104.84s/it]
+coref_precision: 0.6784, coref_recall: 0.2830, coref_f1: 0.3960, mention_recall: 0.7248, loss: 516.3306 ||: 100%|##########| 2/2 [02:34<00:00, 88.26s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4274, coref_recall: 0.1200, coref_f1: 0.1871, mention_recall: 0.5370, loss: 35.3065 ||:  50%|#####     | 1/2 [00:00<00:00,  1.05it/s]
+coref_precision: 0.5162, coref_recall: 0.2254, coref_f1: 0.3131, mention_recall: 0.6062, loss: 88.2657 ||: 100%|##########| 2/2 [00:02<00:00,  1.01s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5794, coref_recall: 0.2476, coref_f1: 0.3437, mention_recall: 0.7155, loss: 872.3419 ||:  50%|#####     | 1/2 [01:43<01:43, 103.85s/it]
+coref_precision: 0.6532, coref_recall: 0.2940, coref_f1: 0.4031, mention_recall: 0.7327, loss: 547.6917 ||: 100%|##########| 2/2 [02:31<00:00, 86.96s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4894, coref_recall: 0.0596, coref_f1: 0.1061, mention_recall: 0.5370, loss: 33.4959 ||:  50%|#####     | 1/2 [00:01<00:01,  1.03s/it]
+coref_precision: 0.5888, coref_recall: 0.1712, coref_f1: 0.2646, mention_recall: 0.6125, loss: 92.1441 ||: 100%|##########| 2/2 [00:02<00:00,  1.10s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8520, coref_recall: 0.3584, coref_f1: 0.5039, mention_recall: 0.7937, loss: 212.8108 ||:  50%|#####     | 1/2 [00:47<00:47, 47.00s/it]
+coref_precision: 0.7167, coref_recall: 0.2375, coref_f1: 0.3511, mention_recall: 0.7397, loss: 563.7255 ||: 100%|##########| 2/2 [02:42<00:00, 67.60s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5410, coref_recall: 0.0644, coref_f1: 0.1149, mention_recall: 0.5370, loss: 34.2330 ||:  50%|#####     | 1/2 [00:01<00:01,  1.13s/it]
+coref_precision: 0.6298, coref_recall: 0.1747, coref_f1: 0.2730, mention_recall: 0.6000, loss: 93.7878 ||: 100%|##########| 2/2 [00:02<00:00,  1.17s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8869, coref_recall: 0.3416, coref_f1: 0.4921, mention_recall: 0.7968, loss: 209.4331 ||:  50%|#####     | 1/2 [00:53<00:53, 53.78s/it]
+coref_precision: 0.7071, coref_recall: 0.2820, coref_f1: 0.3996, mention_recall: 0.7327, loss: 504.7798 ||: 100%|##########| 2/2 [02:50<00:00, 72.74s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.3868, coref_recall: 0.1641, coref_f1: 0.2298, mention_recall: 0.5370, loss: 46.0289 ||:  50%|#####     | 1/2 [00:01<00:01,  1.21s/it]
+coref_precision: 0.4155, coref_recall: 0.2066, coref_f1: 0.2713, mention_recall: 0.5938, loss: 92.6378 ||: 100%|##########| 2/2 [00:02<00:00,  1.27s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5939, coref_recall: 0.2814, coref_f1: 0.3786, mention_recall: 0.7203, loss: 805.0954 ||:  50%|#####     | 1/2 [01:50<01:50, 110.14s/it]
+coref_precision: 0.6653, coref_recall: 0.3323, coref_f1: 0.4405, mention_recall: 0.7415, loss: 519.0201 ||: 100%|##########| 2/2 [02:41<00:00, 92.41s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5053, coref_recall: 0.1457, coref_f1: 0.2261, mention_recall: 0.5370, loss: 34.2339 ||:  50%|#####     | 1/2 [00:01<00:01,  1.03s/it]
+coref_precision: 0.5163, coref_recall: 0.2192, coref_f1: 0.3060, mention_recall: 0.5938, loss: 84.1355 ||: 100%|##########| 2/2 [00:02<00:00,  1.11s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8583, coref_recall: 0.4449, coref_f1: 0.5848, mention_recall: 0.7968, loss: 213.8061 ||:  50%|#####     | 1/2 [00:54<00:54, 54.07s/it]
+coref_precision: 0.7421, coref_recall: 0.2872, coref_f1: 0.4090, mention_recall: 0.7502, loss: 549.0275 ||: 100%|##########| 2/2 [02:42<00:00, 70.46s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7791, coref_recall: 0.0982, coref_f1: 0.1743, mention_recall: 0.5556, loss: 28.1933 ||:  50%|#####     | 1/2 [00:01<00:01,  1.16s/it]
+coref_precision: 0.6771, coref_recall: 0.1884, coref_f1: 0.2928, mention_recall: 0.6062, loss: 92.3746 ||: 100%|##########| 2/2 [00:02<00:00,  1.20s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6775, coref_recall: 0.2178, coref_f1: 0.3228, mention_recall: 0.7264, loss: 882.0038 ||:  50%|#####     | 1/2 [02:07<02:07, 127.38s/it]
+coref_precision: 0.7425, coref_recall: 0.2623, coref_f1: 0.3827, mention_recall: 0.7502, loss: 549.7965 ||: 100%|##########| 2/2 [02:55<00:00, 103.74s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5761, coref_recall: 0.1592, coref_f1: 0.2488, mention_recall: 0.5556, loss: 29.4059 ||:  50%|#####     | 1/2 [00:01<00:01,  1.02s/it]
+coref_precision: 0.5693, coref_recall: 0.2242, coref_f1: 0.3209, mention_recall: 0.6062, loss: 86.1629 ||: 100%|##########| 2/2 [00:02<00:00,  1.08s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8206, coref_recall: 0.4167, coref_f1: 0.5517, mention_recall: 0.7873, loss: 168.6188 ||:  50%|#####     | 1/2 [00:49<00:49, 49.27s/it]
+coref_precision: 0.6435, coref_recall: 0.3380, coref_f1: 0.4425, mention_recall: 0.7520, loss: 541.9340 ||: 100%|##########| 2/2 [02:47<00:00, 69.90s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6041, coref_recall: 0.1516, coref_f1: 0.2412, mention_recall: 0.5556, loss: 33.8823 ||:  50%|#####     | 1/2 [00:01<00:01,  1.14s/it]
+coref_precision: 0.5228, coref_recall: 0.2355, coref_f1: 0.3242, mention_recall: 0.6062, loss: 93.8775 ||: 100%|##########| 2/2 [00:02<00:00,  1.19s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8232, coref_recall: 0.4475, coref_f1: 0.5790, mention_recall: 0.8190, loss: 219.2081 ||:  50%|#####     | 1/2 [00:49<00:49, 49.04s/it]
+coref_precision: 0.7036, coref_recall: 0.3240, coref_f1: 0.4405, mention_recall: 0.7581, loss: 503.5641 ||: 100%|##########| 2/2 [02:45<00:00, 69.25s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5627, coref_recall: 0.0819, coref_f1: 0.1423, mention_recall: 0.5556, loss: 27.6895 ||:  50%|#####     | 1/2 [00:01<00:01,  1.12s/it]
+coref_precision: 0.5921, coref_recall: 0.1965, coref_f1: 0.2937, mention_recall: 0.6062, loss: 93.0477 ||: 100%|##########| 2/2 [00:02<00:00,  1.15s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6798, coref_recall: 0.2334, coref_f1: 0.3399, mention_recall: 0.7288, loss: 823.0898 ||:  50%|#####     | 1/2 [01:45<01:45, 105.63s/it]
+coref_precision: 0.7303, coref_recall: 0.2800, coref_f1: 0.3992, mention_recall: 0.7493, loss: 512.6495 ||: 100%|##########| 2/2 [02:37<00:00, 89.37s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4192, coref_recall: 0.0945, coref_f1: 0.1541, mention_recall: 0.5556, loss: 32.6394 ||:  50%|#####     | 1/2 [00:01<00:01,  1.05s/it]
+coref_precision: 0.5700, coref_recall: 0.2082, coref_f1: 0.3031, mention_recall: 0.6188, loss: 92.3065 ||: 100%|##########| 2/2 [00:02<00:00,  1.12s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8765, coref_recall: 0.4477, coref_f1: 0.5915, mention_recall: 0.8159, loss: 214.4182 ||:  50%|#####     | 1/2 [00:51<00:51, 51.30s/it]
+coref_precision: 0.7278, coref_recall: 0.3325, coref_f1: 0.4508, mention_recall: 0.7642, loss: 480.0487 ||: 100%|##########| 2/2 [02:38<00:00, 68.19s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.3548, coref_recall: 0.1454, coref_f1: 0.2050, mention_recall: 0.5556, loss: 42.0054 ||:  50%|#####     | 1/2 [00:01<00:01,  1.17s/it]
+coref_precision: 0.4687, coref_recall: 0.2271, coref_f1: 0.3039, mention_recall: 0.6125, loss: 88.6324 ||: 100%|##########| 2/2 [00:02<00:00,  1.20s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8567, coref_recall: 0.5239, coref_f1: 0.6493, mention_recall: 0.8190, loss: 193.8673 ||:  50%|#####     | 1/2 [00:51<00:51, 51.10s/it]
+coref_precision: 0.7027, coref_recall: 0.3545, coref_f1: 0.4691, mention_recall: 0.7660, loss: 492.9307 ||: 100%|##########| 2/2 [02:40<00:00, 68.46s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5104, coref_recall: 0.0963, coref_f1: 0.1618, mention_recall: 0.5556, loss: 30.9092 ||:  50%|#####     | 1/2 [00:01<00:01,  1.05s/it]
+coref_precision: 0.5854, coref_recall: 0.2084, coref_f1: 0.3049, mention_recall: 0.6062, loss: 89.0218 ||: 100%|##########| 2/2 [00:02<00:00,  1.11s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6585, coref_recall: 0.2684, coref_f1: 0.3788, mention_recall: 0.7312, loss: 742.9056 ||:  50%|#####     | 1/2 [01:50<01:50, 110.02s/it]
+coref_precision: 0.7272, coref_recall: 0.3279, coref_f1: 0.4498, mention_recall: 0.7581, loss: 481.8155 ||: 100%|##########| 2/2 [02:39<00:00, 91.91s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4314, coref_recall: 0.1276, coref_f1: 0.1966, mention_recall: 0.5556, loss: 29.8206 ||:  50%|#####     | 1/2 [00:01<00:01,  1.15s/it]
+coref_precision: 0.5361, coref_recall: 0.2195, coref_f1: 0.3096, mention_recall: 0.6125, loss: 88.2140 ||: 100%|##########| 2/2 [00:02<00:00,  1.22s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8564, coref_recall: 0.5039, coref_f1: 0.6332, mention_recall: 0.8254, loss: 204.6582 ||:  50%|#####     | 1/2 [00:50<00:50, 50.46s/it]
+coref_precision: 0.7225, coref_recall: 0.3568, coref_f1: 0.4760, mention_recall: 0.7686, loss: 466.6025 ||: 100%|##########| 2/2 [02:38<00:00, 67.78s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4371, coref_recall: 0.0813, coref_f1: 0.1367, mention_recall: 0.5556, loss: 35.4186 ||:  50%|#####     | 1/2 [00:01<00:01,  1.09s/it]
+coref_precision: 0.5885, coref_recall: 0.2060, coref_f1: 0.3032, mention_recall: 0.6125, loss: 87.9376 ||: 100%|##########| 2/2 [00:02<00:00,  1.15s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8527, coref_recall: 0.4471, coref_f1: 0.5840, mention_recall: 0.8476, loss: 231.4149 ||:  50%|#####     | 1/2 [00:49<00:49, 49.29s/it]
+coref_precision: 0.7151, coref_recall: 0.3323, coref_f1: 0.4500, mention_recall: 0.7835, loss: 476.6082 ||: 100%|##########| 2/2 [02:37<00:00, 67.03s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5013, coref_recall: 0.1137, coref_f1: 0.1845, mention_recall: 0.5556, loss: 49.7000 ||:  50%|#####     | 1/2 [00:01<00:01,  1.61s/it]
+coref_precision: 0.5202, coref_recall: 0.2140, coref_f1: 0.3015, mention_recall: 0.6125, loss: 85.5926 ||: 100%|##########| 2/2 [00:02<00:00,  1.53s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6399, coref_recall: 0.3104, coref_f1: 0.4129, mention_recall: 0.7567, loss: 745.7206 ||:  50%|#####     | 1/2 [01:51<01:51, 111.68s/it]
+coref_precision: 0.7121, coref_recall: 0.3677, coref_f1: 0.4809, mention_recall: 0.7835, loss: 485.8573 ||: 100%|##########| 2/2 [02:40<00:00, 92.97s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5601, coref_recall: 0.1147, coref_f1: 0.1899, mention_recall: 0.5556, loss: 45.1153 ||:  50%|#####     | 1/2 [00:01<00:01,  1.04s/it]
+coref_precision: 0.6743, coref_recall: 0.2238, coref_f1: 0.3350, mention_recall: 0.6125, loss: 88.8266 ||: 100%|##########| 2/2 [00:02<00:00,  1.11s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7040, coref_recall: 0.2598, coref_f1: 0.3729, mention_recall: 0.7506, loss: 787.7142 ||:  50%|#####     | 1/2 [02:02<02:02, 122.04s/it]
+coref_precision: 0.7599, coref_recall: 0.3217, coref_f1: 0.4470, mention_recall: 0.7748, loss: 494.5689 ||: 100%|##########| 2/2 [02:57<00:00, 101.99s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.3730, coref_recall: 0.1137, coref_f1: 0.1740, mention_recall: 0.5556, loss: 50.8325 ||:  50%|#####     | 1/2 [00:01<00:01,  1.08s/it]
+coref_precision: 0.5664, coref_recall: 0.2269, coref_f1: 0.3235, mention_recall: 0.6125, loss: 92.6169 ||: 100%|##########| 2/2 [00:02<00:00,  1.12s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6906, coref_recall: 0.3165, coref_f1: 0.4291, mention_recall: 0.7458, loss: 657.5939 ||:  50%|#####     | 1/2 [01:48<01:48, 108.72s/it]
+coref_precision: 0.7289, coref_recall: 0.3771, coref_f1: 0.4935, mention_recall: 0.7774, loss: 443.5455 ||: 100%|##########| 2/2 [02:36<00:00, 90.55s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4282, coref_recall: 0.1328, coref_f1: 0.2011, mention_recall: 0.5741, loss: 45.5319 ||:  50%|#####     | 1/2 [00:00<00:00,  1.03it/s]
+coref_precision: 0.5751, coref_recall: 0.2250, coref_f1: 0.3213, mention_recall: 0.6188, loss: 86.8634 ||: 100%|##########| 2/2 [00:02<00:00,  1.04s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6486, coref_recall: 0.3213, coref_f1: 0.4262, mention_recall: 0.7651, loss: 738.2733 ||:  50%|#####     | 1/2 [01:44<01:44, 104.96s/it]
+coref_precision: 0.7141, coref_recall: 0.3721, coref_f1: 0.4867, mention_recall: 0.7870, loss: 451.1810 ||: 100%|##########| 2/2 [02:35<00:00, 88.60s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5386, coref_recall: 0.0988, coref_f1: 0.1665, mention_recall: 0.5741, loss: 35.4512 ||:  50%|#####     | 1/2 [00:01<00:01,  1.10s/it]
+coref_precision: 0.6574, coref_recall: 0.2077, coref_f1: 0.3139, mention_recall: 0.6188, loss: 88.9110 ||: 100%|##########| 2/2 [00:02<00:00,  1.16s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8682, coref_recall: 0.4580, coref_f1: 0.5980, mention_recall: 0.8413, loss: 176.1373 ||:  50%|#####     | 1/2 [00:52<00:52, 52.64s/it]
+coref_precision: 0.7505, coref_recall: 0.3309, coref_f1: 0.4546, mention_recall: 0.7835, loss: 481.8513 ||: 100%|##########| 2/2 [02:37<00:00, 68.36s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4566, coref_recall: 0.1286, coref_f1: 0.1997, mention_recall: 0.5741, loss: 37.5982 ||:  50%|#####     | 1/2 [00:01<00:01,  1.07s/it]
+coref_precision: 0.5904, coref_recall: 0.2222, coref_f1: 0.3213, mention_recall: 0.6188, loss: 87.5520 ||: 100%|##########| 2/2 [00:02<00:00,  1.10s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6944, coref_recall: 0.2875, coref_f1: 0.4013, mention_recall: 0.7567, loss: 668.3782 ||:  50%|#####     | 1/2 [01:48<01:48, 108.08s/it]
+coref_precision: 0.7444, coref_recall: 0.3622, coref_f1: 0.4834, mention_recall: 0.7809, loss: 433.8326 ||: 100%|##########| 2/2 [02:35<00:00, 89.93s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.3228, coref_recall: 0.2085, coref_f1: 0.2495, mention_recall: 0.5556, loss: 62.3268 ||:  50%|#####     | 1/2 [00:01<00:01,  1.01s/it]
+coref_precision: 0.4405, coref_recall: 0.2841, coref_f1: 0.3430, mention_recall: 0.6125, loss: 101.6186 ||: 100%|##########| 2/2 [00:02<00:00,  1.09s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7534, coref_recall: 0.5217, coref_f1: 0.6157, mention_recall: 0.8508, loss: 234.8580 ||:  50%|#####     | 1/2 [00:47<00:47, 47.88s/it]
+coref_precision: 0.6858, coref_recall: 0.3966, coref_f1: 0.5004, mention_recall: 0.7879, loss: 459.0661 ||: 100%|##########| 2/2 [02:39<00:00, 66.89s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5299, coref_recall: 0.1375, coref_f1: 0.2180, mention_recall: 0.5926, loss: 36.1063 ||:  50%|#####     | 1/2 [00:01<00:01,  1.17s/it]
+coref_precision: 0.6260, coref_recall: 0.2382, coref_f1: 0.3445, mention_recall: 0.6250, loss: 83.4613 ||: 100%|##########| 2/2 [00:02<00:00,  1.24s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6793, coref_recall: 0.3050, coref_f1: 0.4135, mention_recall: 0.7821, loss: 729.1547 ||:  50%|#####     | 1/2 [01:44<01:44, 104.59s/it]
+coref_precision: 0.7277, coref_recall: 0.3530, coref_f1: 0.4695, mention_recall: 0.8046, loss: 460.5193 ||: 100%|##########| 2/2 [02:34<00:00, 88.33s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6135, coref_recall: 0.1375, coref_f1: 0.2243, mention_recall: 0.5926, loss: 39.7502 ||:  50%|#####     | 1/2 [00:01<00:01,  1.06s/it]
+coref_precision: 0.6663, coref_recall: 0.2330, coref_f1: 0.3448, mention_recall: 0.6250, loss: 83.1128 ||: 100%|##########| 2/2 [00:02<00:00,  1.12s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7021, coref_recall: 0.3043, coref_f1: 0.4198, mention_recall: 0.7869, loss: 716.1543 ||:  50%|#####     | 1/2 [01:45<01:45, 105.88s/it]
+coref_precision: 0.7534, coref_recall: 0.3735, coref_f1: 0.4959, mention_recall: 0.8046, loss: 443.8289 ||: 100%|##########| 2/2 [02:32<00:00, 88.15s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.3486, coref_recall: 0.1515, coref_f1: 0.2104, mention_recall: 0.5741, loss: 45.1361 ||:  50%|#####     | 1/2 [00:00<00:00,  1.02it/s]
+coref_precision: 0.5004, coref_recall: 0.2496, coref_f1: 0.3318, mention_recall: 0.6188, loss: 87.8569 ||: 100%|##########| 2/2 [00:02<00:00,  1.03s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8290, coref_recall: 0.5423, coref_f1: 0.6539, mention_recall: 0.8635, loss: 171.7223 ||:  50%|#####     | 1/2 [00:44<00:44, 44.97s/it]
+coref_precision: 0.7349, coref_recall: 0.4128, coref_f1: 0.5260, mention_recall: 0.8028, loss: 402.1074 ||: 100%|##########| 2/2 [02:23<00:00, 61.07s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4726, coref_recall: 0.0978, coref_f1: 0.1616, mention_recall: 0.5741, loss: 36.5379 ||:  50%|#####     | 1/2 [00:00<00:00,  1.00it/s]
+coref_precision: 0.6530, coref_recall: 0.2241, coref_f1: 0.3329, mention_recall: 0.6312, loss: 92.3040 ||: 100%|##########| 2/2 [00:02<00:00,  1.05s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8929, coref_recall: 0.5020, coref_f1: 0.6408, mention_recall: 0.8730, loss: 176.9976 ||:  50%|#####     | 1/2 [00:44<00:44, 44.94s/it]
+coref_precision: 0.7776, coref_recall: 0.3619, coref_f1: 0.4875, mention_recall: 0.8107, loss: 438.0329 ||: 100%|##########| 2/2 [02:22<00:00, 60.60s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4200, coref_recall: 0.1111, coref_f1: 0.1752, mention_recall: 0.5926, loss: 40.1342 ||:  50%|#####     | 1/2 [00:00<00:00,  1.04it/s]
+coref_precision: 0.5978, coref_recall: 0.2337, coref_f1: 0.3347, mention_recall: 0.6312, loss: 91.0903 ||: 100%|##########| 2/2 [00:02<00:00,  1.00s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7305, coref_recall: 0.3466, coref_f1: 0.4638, mention_recall: 0.7785, loss: 609.9436 ||:  50%|#####     | 1/2 [01:37<01:37, 97.06s/it]
+coref_precision: 0.7573, coref_recall: 0.4169, coref_f1: 0.5331, mention_recall: 0.8046, loss: 390.8396 ||: 100%|##########| 2/2 [02:21<00:00, 81.39s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4918, coref_recall: 0.1498, coref_f1: 0.2292, mention_recall: 0.5926, loss: 41.1287 ||:  50%|#####     | 1/2 [00:00<00:00,  1.07it/s]
+coref_precision: 0.5669, coref_recall: 0.2489, coref_f1: 0.3435, mention_recall: 0.6188, loss: 82.2826 ||: 100%|##########| 2/2 [00:02<00:00,  1.01it/s]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6648, coref_recall: 0.3809, coref_f1: 0.4823, mention_recall: 0.7857, loss: 658.4749 ||:  50%|#####     | 1/2 [01:37<01:37, 97.70s/it]
+coref_precision: 0.7260, coref_recall: 0.4350, coref_f1: 0.5423, mention_recall: 0.8072, loss: 391.4152 ||: 100%|##########| 2/2 [02:22<00:00, 81.95s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.3976, coref_recall: 0.0722, coref_f1: 0.1222, mention_recall: 0.5926, loss: 40.2835 ||:  50%|#####     | 1/2 [00:00<00:00,  1.09it/s]
+coref_precision: 0.6123, coref_recall: 0.2102, coref_f1: 0.3100, mention_recall: 0.6312, loss: 89.0735 ||: 100%|##########| 2/2 [00:02<00:00,  1.02it/s]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7414, coref_recall: 0.3187, coref_f1: 0.4374, mention_recall: 0.7930, loss: 643.6588 ||:  50%|#####     | 1/2 [01:37<01:37, 97.28s/it]
+coref_precision: 0.7803, coref_recall: 0.3675, coref_f1: 0.4940, mention_recall: 0.8124, loss: 424.0613 ||: 100%|##########| 2/2 [02:22<00:00, 81.60s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4200, coref_recall: 0.1111, coref_f1: 0.1752, mention_recall: 0.5926, loss: 43.7320 ||:  50%|#####     | 1/2 [00:00<00:00,  1.05it/s]
+coref_precision: 0.5799, coref_recall: 0.2337, coref_f1: 0.3306, mention_recall: 0.6312, loss: 90.1038 ||: 100%|##########| 2/2 [00:02<00:00,  1.02s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7207, coref_recall: 0.3538, coref_f1: 0.4684, mention_recall: 0.7821, loss: 615.8501 ||:  50%|#####     | 1/2 [01:36<01:36, 96.46s/it]
+coref_precision: 0.7492, coref_recall: 0.4074, coref_f1: 0.5227, mention_recall: 0.8072, loss: 400.0849 ||: 100%|##########| 2/2 [02:26<00:00, 82.47s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4338, coref_recall: 0.1974, coref_f1: 0.2709, mention_recall: 0.5926, loss: 54.6967 ||:  50%|#####     | 1/2 [00:01<00:01,  1.11s/it]
+coref_precision: 0.5140, coref_recall: 0.2718, coref_f1: 0.3538, mention_recall: 0.6375, loss: 95.6945 ||: 100%|##########| 2/2 [00:02<00:00,  1.18s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6262, coref_recall: 0.4046, coref_f1: 0.4893, mention_recall: 0.7869, loss: 687.8008 ||:  50%|#####     | 1/2 [01:51<01:51, 111.25s/it]
+coref_precision: 0.6810, coref_recall: 0.4590, coref_f1: 0.5465, mention_recall: 0.8133, loss: 445.9269 ||: 100%|##########| 2/2 [02:44<00:00, 93.77s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4877, coref_recall: 0.1549, coref_f1: 0.2349, mention_recall: 0.5926, loss: 44.4844 ||:  50%|#####     | 1/2 [00:01<00:01,  1.31s/it]
+coref_precision: 0.6141, coref_recall: 0.2487, coref_f1: 0.3537, mention_recall: 0.6438, loss: 90.9650 ||: 100%|##########| 2/2 [00:02<00:00,  1.35s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6830, coref_recall: 0.3213, coref_f1: 0.4305, mention_recall: 0.8027, loss: 644.2227 ||:  50%|#####     | 1/2 [01:53<01:53, 113.92s/it]
+coref_precision: 0.7425, coref_recall: 0.3912, coref_f1: 0.5075, mention_recall: 0.8238, loss: 396.2657 ||: 100%|##########| 2/2 [02:43<00:00, 94.68s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5530, coref_recall: 0.1365, coref_f1: 0.2186, mention_recall: 0.5926, loss: 38.9919 ||:  50%|#####     | 1/2 [00:01<00:01,  1.02s/it]
+coref_precision: 0.6444, coref_recall: 0.2305, coref_f1: 0.3378, mention_recall: 0.6438, loss: 91.0042 ||: 100%|##########| 2/2 [00:02<00:00,  1.10s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7304, coref_recall: 0.3364, coref_f1: 0.4524, mention_recall: 0.7906, loss: 562.1464 ||:  50%|#####     | 1/2 [01:48<01:48, 108.69s/it]
+coref_precision: 0.7816, coref_recall: 0.3906, coref_f1: 0.5153, mention_recall: 0.8107, loss: 354.5235 ||: 100%|##########| 2/2 [02:38<00:00, 90.92s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.3269, coref_recall: 0.1652, coref_f1: 0.2183, mention_recall: 0.6111, loss: 55.7663 ||:  50%|#####     | 1/2 [00:01<00:01,  1.06s/it]
+coref_precision: 0.4229, coref_recall: 0.2503, coref_f1: 0.3101, mention_recall: 0.6500, loss: 109.9141 ||: 100%|##########| 2/2 [00:02<00:00,  1.12s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8438, coref_recall: 0.5763, coref_f1: 0.6830, mention_recall: 0.8730, loss: 143.2428 ||:  50%|#####     | 1/2 [00:51<00:51, 51.48s/it]
+coref_precision: 0.6666, coref_recall: 0.4419, coref_f1: 0.5311, mention_recall: 0.8133, loss: 406.5057 ||: 100%|##########| 2/2 [02:52<00:00, 72.47s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.3028, coref_recall: 0.1862, coref_f1: 0.2293, mention_recall: 0.5926, loss: 61.2915 ||:  50%|#####     | 1/2 [00:01<00:01,  1.20s/it]
+coref_precision: 0.3987, coref_recall: 0.2588, coref_f1: 0.3067, mention_recall: 0.6375, loss: 103.8957 ||: 100%|##########| 2/2 [00:02<00:00,  1.24s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8104, coref_recall: 0.6102, coref_f1: 0.6956, mention_recall: 0.8889, loss: 174.3812 ||:  50%|#####     | 1/2 [00:49<00:49, 49.28s/it]
+coref_precision: 0.7112, coref_recall: 0.4715, coref_f1: 0.5661, mention_recall: 0.8186, loss: 418.5867 ||: 100%|##########| 2/2 [02:44<00:00, 69.11s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5744, coref_recall: 0.1191, coref_f1: 0.1970, mention_recall: 0.5926, loss: 43.9330 ||:  50%|#####     | 1/2 [00:01<00:01,  1.16s/it]
+coref_precision: 0.6191, coref_recall: 0.2301, coref_f1: 0.3347, mention_recall: 0.6375, loss: 87.2296 ||: 100%|##########| 2/2 [00:02<00:00,  1.22s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8554, coref_recall: 0.5829, coref_f1: 0.6919, mention_recall: 0.8794, loss: 144.3569 ||:  50%|#####     | 1/2 [00:49<00:49, 49.76s/it]
+coref_precision: 0.8032, coref_recall: 0.4071, coref_f1: 0.5348, mention_recall: 0.8107, loss: 360.4276 ||: 100%|##########| 2/2 [02:44<00:00, 69.37s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4063, coref_recall: 0.0581, coref_f1: 0.1016, mention_recall: 0.6111, loss: 55.5192 ||:  50%|#####     | 1/2 [00:01<00:01,  1.13s/it]
+coref_precision: 0.6257, coref_recall: 0.1980, coref_f1: 0.2991, mention_recall: 0.6438, loss: 103.2545 ||: 100%|##########| 2/2 [00:02<00:00,  1.19s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7397, coref_recall: 0.3122, coref_f1: 0.4330, mention_recall: 0.7906, loss: 638.8422 ||:  50%|#####     | 1/2 [02:01<02:01, 121.63s/it]
+coref_precision: 0.8000, coref_recall: 0.3791, coref_f1: 0.5093, mention_recall: 0.8142, loss: 387.7536 ||: 100%|##########| 2/2 [02:51<00:00, 100.22s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4935, coref_recall: 0.1324, coref_f1: 0.2087, mention_recall: 0.6481, loss: 59.2524 ||:  50%|#####     | 1/2 [00:00<00:00,  1.02it/s]
+coref_precision: 0.5673, coref_recall: 0.2370, coref_f1: 0.3339, mention_recall: 0.6562, loss: 101.1493 ||: 100%|##########| 2/2 [00:02<00:00,  1.05s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8532, coref_recall: 0.5493, coref_f1: 0.6655, mention_recall: 0.8857, loss: 154.8556 ||:  50%|#####     | 1/2 [00:58<00:58, 58.09s/it]
+coref_precision: 0.7485, coref_recall: 0.4550, coref_f1: 0.5625, mention_recall: 0.8203, loss: 374.0287 ||: 100%|##########| 2/2 [02:55<00:00, 75.74s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4005, coref_recall: 0.1956, coref_f1: 0.2626, mention_recall: 0.6667, loss: 67.8760 ||:  50%|#####     | 1/2 [00:01<00:01,  1.27s/it]
+coref_precision: 0.4402, coref_recall: 0.2516, coref_f1: 0.3191, mention_recall: 0.6625, loss: 103.9107 ||: 100%|##########| 2/2 [00:02<00:00,  1.31s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7908, coref_recall: 0.6398, coref_f1: 0.7070, mention_recall: 0.8825, loss: 167.1623 ||:  50%|#####     | 1/2 [00:52<00:52, 52.96s/it]
+coref_precision: 0.6907, coref_recall: 0.4799, coref_f1: 0.5634, mention_recall: 0.8186, loss: 381.9185 ||: 100%|##########| 2/2 [02:52<00:00, 72.96s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4408, coref_recall: 0.1421, coref_f1: 0.2143, mention_recall: 0.6667, loss: 61.2209 ||:  50%|#####     | 1/2 [00:01<00:01,  1.13s/it]
+coref_precision: 0.5370, coref_recall: 0.2423, coref_f1: 0.3321, mention_recall: 0.6625, loss: 96.5301 ||: 100%|##########| 2/2 [00:02<00:00,  1.18s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6868, coref_recall: 0.3825, coref_f1: 0.4848, mention_recall: 0.8039, loss: 601.3044 ||:  50%|#####     | 1/2 [01:57<01:57, 117.85s/it]
+coref_precision: 0.7517, coref_recall: 0.4503, coref_f1: 0.5583, mention_recall: 0.8247, loss: 349.2797 ||: 100%|##########| 2/2 [02:50<00:00, 98.24s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4865, coref_recall: 0.0805, coref_f1: 0.1377, mention_recall: 0.6667, loss: 69.1122 ||:  50%|#####     | 1/2 [00:00<00:00,  1.02it/s]
+coref_precision: 0.6511, coref_recall: 0.2081, coref_f1: 0.3135, mention_recall: 0.6625, loss: 105.2297 ||: 100%|##########| 2/2 [00:02<00:00,  1.03s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8849, coref_recall: 0.5787, coref_f1: 0.6974, mention_recall: 0.8857, loss: 109.1112 ||:  50%|#####     | 1/2 [00:49<00:49, 49.20s/it]
+coref_precision: 0.8091, coref_recall: 0.3755, coref_f1: 0.5062, mention_recall: 0.8282, loss: 389.5748 ||: 100%|##########| 2/2 [02:44<00:00, 69.06s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4865, coref_recall: 0.0805, coref_f1: 0.1377, mention_recall: 0.6481, loss: 52.7244 ||:  50%|#####     | 1/2 [00:01<00:01,  1.08s/it]
+coref_precision: 0.6114, coref_recall: 0.2118, coref_f1: 0.3135, mention_recall: 0.6562, loss: 91.7210 ||: 100%|##########| 2/2 [00:02<00:00,  1.15s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7384, coref_recall: 0.3318, coref_f1: 0.4498, mention_recall: 0.8051, loss: 599.2299 ||:  50%|#####     | 1/2 [01:51<01:51, 111.33s/it]
+coref_precision: 0.7883, coref_recall: 0.4232, coref_f1: 0.5448, mention_recall: 0.8256, loss: 347.0020 ||: 100%|##########| 2/2 [02:43<00:00, 93.56s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4070, coref_recall: 0.1962, coref_f1: 0.2646, mention_recall: 0.6667, loss: 55.0581 ||:  50%|#####     | 1/2 [00:01<00:01,  1.09s/it]
+coref_precision: 0.4757, coref_recall: 0.2634, coref_f1: 0.3386, mention_recall: 0.6625, loss: 92.1785 ||: 100%|##########| 2/2 [00:02<00:00,  1.18s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8095, coref_recall: 0.6362, coref_f1: 0.7114, mention_recall: 0.8825, loss: 107.0342 ||:  50%|#####     | 1/2 [00:52<00:52, 52.52s/it]
+coref_precision: 0.7401, coref_recall: 0.4745, coref_f1: 0.5749, mention_recall: 0.8335, loss: 344.9591 ||: 100%|##########| 2/2 [02:43<00:00, 69.98s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4835, coref_recall: 0.1810, coref_f1: 0.2632, mention_recall: 0.6667, loss: 54.7826 ||:  50%|#####     | 1/2 [00:01<00:01,  1.12s/it]
+coref_precision: 0.5776, coref_recall: 0.2625, coref_f1: 0.3605, mention_recall: 0.6625, loss: 93.7331 ||: 100%|##########| 2/2 [00:02<00:00,  1.17s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7151, coref_recall: 0.3969, coref_f1: 0.5053, mention_recall: 0.8136, loss: 562.3241 ||:  50%|#####     | 1/2 [02:01<02:01, 121.65s/it]
+coref_precision: 0.7868, coref_recall: 0.4712, coref_f1: 0.5850, mention_recall: 0.8370, loss: 319.5658 ||: 100%|##########| 2/2 [02:52<00:00, 100.32s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6000, coref_recall: 0.1677, coref_f1: 0.2618, mention_recall: 0.6852, loss: 57.2334 ||:  50%|#####     | 1/2 [00:01<00:01,  1.17s/it]
+coref_precision: 0.6586, coref_recall: 0.2484, coref_f1: 0.3605, mention_recall: 0.6687, loss: 93.6533 ||: 100%|##########| 2/2 [00:02<00:00,  1.22s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7281, coref_recall: 0.3865, coref_f1: 0.4968, mention_recall: 0.7966, loss: 503.9445 ||:  50%|#####     | 1/2 [02:08<02:08, 128.61s/it]
+coref_precision: 0.7769, coref_recall: 0.4721, coref_f1: 0.5812, mention_recall: 0.8212, loss: 297.2578 ||: 100%|##########| 2/2 [03:02<00:00, 106.33s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5520, coref_recall: 0.2072, coref_f1: 0.3011, mention_recall: 0.6667, loss: 61.0517 ||:  50%|#####     | 1/2 [00:01<00:01,  1.04s/it]
+coref_precision: 0.5873, coref_recall: 0.2489, coref_f1: 0.3496, mention_recall: 0.6562, loss: 94.7522 ||: 100%|##########| 2/2 [00:02<00:00,  1.14s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8989, coref_recall: 0.6707, coref_f1: 0.7646, mention_recall: 0.8952, loss: 110.6395 ||:  50%|#####     | 1/2 [00:57<00:57, 57.59s/it]
+coref_precision: 0.7713, coref_recall: 0.4855, coref_f1: 0.5899, mention_recall: 0.8317, loss: 309.9207 ||: 100%|##########| 2/2 [02:52<00:00, 74.90s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5077, coref_recall: 0.1399, coref_f1: 0.2190, mention_recall: 0.6667, loss: 67.6808 ||:  50%|#####     | 1/2 [00:01<00:01,  1.11s/it]
+coref_precision: 0.5615, coref_recall: 0.2385, coref_f1: 0.3342, mention_recall: 0.6687, loss: 105.7981 ||: 100%|##########| 2/2 [00:02<00:00,  1.15s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8867, coref_recall: 0.6475, coref_f1: 0.7455, mention_recall: 0.8984, loss: 93.4549 ||:  50%|#####     | 1/2 [00:52<00:52, 52.36s/it]
+coref_precision: 0.7751, coref_recall: 0.4994, coref_f1: 0.6020, mention_recall: 0.8317, loss: 292.4718 ||: 100%|##########| 2/2 [02:50<00:00, 72.02s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4923, coref_recall: 0.1675, coref_f1: 0.2497, mention_recall: 0.6852, loss: 70.4697 ||:  50%|#####     | 1/2 [00:01<00:01,  1.12s/it]
+coref_precision: 0.5458, coref_recall: 0.2400, coref_f1: 0.3320, mention_recall: 0.6813, loss: 113.2590 ||: 100%|##########| 2/2 [00:02<00:00,  1.17s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7291, coref_recall: 0.4315, coref_f1: 0.5359, mention_recall: 0.8111, loss: 462.6610 ||:  50%|#####     | 1/2 [01:50<01:50, 110.35s/it]
+coref_precision: 0.7846, coref_recall: 0.5006, coref_f1: 0.6065, mention_recall: 0.8326, loss: 270.1765 ||: 100%|##########| 2/2 [02:44<00:00, 93.45s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6027, coref_recall: 0.1686, coref_f1: 0.2631, mention_recall: 0.7037, loss: 71.0851 ||:  50%|#####     | 1/2 [00:01<00:01,  1.12s/it]
+coref_precision: 0.5985, coref_recall: 0.2482, coref_f1: 0.3495, mention_recall: 0.6937, loss: 113.3566 ||: 100%|##########| 2/2 [00:02<00:00,  1.19s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7346, coref_recall: 0.4147, coref_f1: 0.5228, mention_recall: 0.8184, loss: 516.8478 ||:  50%|#####     | 1/2 [02:09<02:09, 129.43s/it]
+coref_precision: 0.7804, coref_recall: 0.4842, coref_f1: 0.5924, mention_recall: 0.8396, loss: 297.1963 ||: 100%|##########| 2/2 [03:02<00:00, 106.66s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5167, coref_recall: 0.1667, coref_f1: 0.2513, mention_recall: 0.7037, loss: 65.7162 ||:  50%|#####     | 1/2 [00:01<00:01,  1.08s/it]
+coref_precision: 0.5891, coref_recall: 0.2434, coref_f1: 0.3423, mention_recall: 0.6937, loss: 110.3734 ||: 100%|##########| 2/2 [00:02<00:00,  1.18s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8688, coref_recall: 0.6647, coref_f1: 0.7525, mention_recall: 0.9048, loss: 93.1836 ||:  50%|#####     | 1/2 [00:52<00:52, 52.39s/it]
+coref_precision: 0.7978, coref_recall: 0.4834, coref_f1: 0.5961, mention_recall: 0.8493, loss: 283.9151 ||: 100%|##########| 2/2 [02:47<00:00, 71.17s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5552, coref_recall: 0.1845, coref_f1: 0.2765, mention_recall: 0.7222, loss: 82.8855 ||:  50%|#####     | 1/2 [00:01<00:01,  1.22s/it]
+coref_precision: 0.5838, coref_recall: 0.2482, coref_f1: 0.3466, mention_recall: 0.7000, loss: 126.3493 ||: 100%|##########| 2/2 [00:02<00:00,  1.27s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7358, coref_recall: 0.3853, coref_f1: 0.4957, mention_recall: 0.8148, loss: 468.4127 ||:  50%|#####     | 1/2 [01:49<01:49, 109.72s/it]
+coref_precision: 0.7755, coref_recall: 0.4469, coref_f1: 0.5604, mention_recall: 0.8396, loss: 284.1344 ||: 100%|##########| 2/2 [02:41<00:00, 92.45s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4202, coref_recall: 0.2448, coref_f1: 0.3092, mention_recall: 0.7222, loss: 89.1236 ||:  50%|#####     | 1/2 [00:01<00:01,  1.11s/it]
+coref_precision: 0.5051, coref_recall: 0.2878, coref_f1: 0.3650, mention_recall: 0.6937, loss: 124.4501 ||: 100%|##########| 2/2 [00:02<00:00,  1.15s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6863, coref_recall: 0.4768, coref_f1: 0.5602, mention_recall: 0.8160, loss: 493.1949 ||:  50%|#####     | 1/2 [02:09<02:09, 129.09s/it]
+coref_precision: 0.7470, coref_recall: 0.5387, coref_f1: 0.6230, mention_recall: 0.8396, loss: 290.7279 ||: 100%|##########| 2/2 [03:01<00:00, 106.07s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4983, coref_recall: 0.1953, coref_f1: 0.2803, mention_recall: 0.6852, loss: 74.7834 ||:  50%|#####     | 1/2 [00:01<00:01,  1.13s/it]
+coref_precision: 0.6270, coref_recall: 0.2762, coref_f1: 0.3829, mention_recall: 0.6750, loss: 109.9694 ||: 100%|##########| 2/2 [00:02<00:00,  1.21s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8696, coref_recall: 0.6515, coref_f1: 0.7420, mention_recall: 0.9079, loss: 92.9384 ||:  50%|#####     | 1/2 [00:51<00:51, 51.25s/it]
+coref_precision: 0.7936, coref_recall: 0.5035, coref_f1: 0.6105, mention_recall: 0.8405, loss: 250.8798 ||: 100%|##########| 2/2 [02:51<00:00, 72.07s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5706, coref_recall: 0.1502, coref_f1: 0.2376, mention_recall: 0.6852, loss: 75.3321 ||:  50%|#####     | 1/2 [00:01<00:01,  1.13s/it]
+coref_precision: 0.6967, coref_recall: 0.2410, coref_f1: 0.3579, mention_recall: 0.6687, loss: 105.5490 ||: 100%|##########| 2/2 [00:02<00:00,  1.22s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8671, coref_recall: 0.6424, coref_f1: 0.7358, mention_recall: 0.9079, loss: 78.9456 ||:  50%|#####     | 1/2 [00:51<00:51, 51.32s/it]
+coref_precision: 0.8155, coref_recall: 0.4955, coref_f1: 0.6106, mention_recall: 0.8493, loss: 256.2509 ||: 100%|##########| 2/2 [02:59<00:00, 74.50s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4983, coref_recall: 0.1953, coref_f1: 0.2803, mention_recall: 0.6852, loss: 71.2733 ||:  50%|#####     | 1/2 [00:01<00:01,  1.23s/it]
+coref_precision: 0.6441, coref_recall: 0.2709, coref_f1: 0.3803, mention_recall: 0.6687, loss: 99.7911 ||: 100%|##########| 2/2 [00:02<00:00,  1.26s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8852, coref_recall: 0.6658, coref_f1: 0.7580, mention_recall: 0.9048, loss: 70.2648 ||:  50%|#####     | 1/2 [00:55<00:55, 55.39s/it]
+coref_precision: 0.7955, coref_recall: 0.5298, coref_f1: 0.6311, mention_recall: 0.8379, loss: 221.5495 ||: 100%|##########| 2/2 [02:57<00:00, 75.30s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4725, coref_recall: 0.1784, coref_f1: 0.2589, mention_recall: 0.7037, loss: 75.4520 ||:  50%|#####     | 1/2 [00:01<00:01,  1.29s/it]
+coref_precision: 0.6133, coref_recall: 0.2606, coref_f1: 0.3646, mention_recall: 0.6750, loss: 103.3705 ||: 100%|##########| 2/2 [00:02<00:00,  1.31s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8850, coref_recall: 0.6887, coref_f1: 0.7723, mention_recall: 0.9016, loss: 51.3070 ||:  50%|#####     | 1/2 [00:49<00:49, 49.45s/it]
+coref_precision: 0.8234, coref_recall: 0.5288, coref_f1: 0.6382, mention_recall: 0.8414, loss: 196.5321 ||: 100%|##########| 2/2 [02:45<00:00, 69.38s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6028, coref_recall: 0.2062, coref_f1: 0.3070, mention_recall: 0.7222, loss: 76.4318 ||:  50%|#####     | 1/2 [00:01<00:01,  1.06s/it]
+coref_precision: 0.6762, coref_recall: 0.2625, coref_f1: 0.3767, mention_recall: 0.6813, loss: 105.7655 ||: 100%|##########| 2/2 [00:02<00:00,  1.15s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.9064, coref_recall: 0.7003, coref_f1: 0.7859, mention_recall: 0.9111, loss: 48.2832 ||:  50%|#####     | 1/2 [00:50<00:50, 50.76s/it]
+coref_precision: 0.8242, coref_recall: 0.5562, coref_f1: 0.6589, mention_recall: 0.8501, loss: 199.7053 ||: 100%|##########| 2/2 [02:48<00:00, 70.72s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6028, coref_recall: 0.2062, coref_f1: 0.3070, mention_recall: 0.7222, loss: 70.9865 ||:  50%|#####     | 1/2 [00:01<00:01,  1.14s/it]
+coref_precision: 0.6049, coref_recall: 0.2642, coref_f1: 0.3668, mention_recall: 0.7000, loss: 120.2383 ||: 100%|##########| 2/2 [00:02<00:00,  1.18s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7374, coref_recall: 0.4737, coref_f1: 0.5706, mention_recall: 0.8281, loss: 374.7137 ||:  50%|#####     | 1/2 [01:49<01:49, 109.93s/it]
+coref_precision: 0.7959, coref_recall: 0.5433, coref_f1: 0.6407, mention_recall: 0.8510, loss: 210.9232 ||: 100%|##########| 2/2 [02:38<00:00, 91.55s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5082, coref_recall: 0.1935, coref_f1: 0.2798, mention_recall: 0.7037, loss: 75.2183 ||:  50%|#####     | 1/2 [00:01<00:01,  1.01s/it]
+coref_precision: 0.5827, coref_recall: 0.2540, coref_f1: 0.3531, mention_recall: 0.6750, loss: 112.0651 ||: 100%|##########| 2/2 [00:02<00:00,  1.10s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.9120, coref_recall: 0.7305, coref_f1: 0.8086, mention_recall: 0.9079, loss: 46.0772 ||:  50%|#####     | 1/2 [00:48<00:48, 48.50s/it]
+coref_precision: 0.8292, coref_recall: 0.5304, coref_f1: 0.6391, mention_recall: 0.8457, loss: 246.8451 ||: 100%|##########| 2/2 [02:30<00:00, 64.63s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4628, coref_recall: 0.1800, coref_f1: 0.2581, mention_recall: 0.7037, loss: 86.8839 ||:  50%|#####     | 1/2 [00:01<00:01,  1.09s/it]
+coref_precision: 0.5701, coref_recall: 0.2586, coref_f1: 0.3554, mention_recall: 0.6750, loss: 125.3052 ||: 100%|##########| 2/2 [00:02<00:00,  1.15s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7421, coref_recall: 0.4604, coref_f1: 0.5609, mention_recall: 0.8269, loss: 404.3961 ||:  50%|#####     | 1/2 [01:38<01:38, 98.97s/it]
+coref_precision: 0.7856, coref_recall: 0.5351, coref_f1: 0.6311, mention_recall: 0.8493, loss: 233.7422 ||: 100%|##########| 2/2 [02:26<00:00, 83.58s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.3436, coref_recall: 0.1952, coref_f1: 0.2481, mention_recall: 0.7037, loss: 95.1897 ||:  50%|#####     | 1/2 [00:01<00:01,  1.03s/it]
+coref_precision: 0.4727, coref_recall: 0.2791, coref_f1: 0.3506, mention_recall: 0.6813, loss: 133.6147 ||: 100%|##########| 2/2 [00:02<00:00,  1.09s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8683, coref_recall: 0.7266, coref_f1: 0.7881, mention_recall: 0.9079, loss: 58.8885 ||:  50%|#####     | 1/2 [00:47<00:47, 47.76s/it]
+coref_precision: 0.8018, coref_recall: 0.5558, coref_f1: 0.6500, mention_recall: 0.8563, loss: 205.8396 ||: 100%|##########| 2/2 [02:36<00:00, 65.98s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5552, coref_recall: 0.1845, coref_f1: 0.2765, mention_recall: 0.7222, loss: 94.6099 ||:  50%|#####     | 1/2 [00:01<00:01,  1.11s/it]
+coref_precision: 0.5849, coref_recall: 0.2665, coref_f1: 0.3648, mention_recall: 0.6875, loss: 128.4162 ||: 100%|##########| 2/2 [00:02<00:00,  1.16s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7656, coref_recall: 0.4965, coref_f1: 0.5984, mention_recall: 0.8293, loss: 384.8419 ||:  50%|#####     | 1/2 [01:48<01:48, 108.62s/it]
+coref_precision: 0.8159, coref_recall: 0.5603, coref_f1: 0.6607, mention_recall: 0.8519, loss: 219.3151 ||: 100%|##########| 2/2 [02:35<00:00, 90.22s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5535, coref_recall: 0.1675, coref_f1: 0.2568, mention_recall: 0.7222, loss: 79.4446 ||:  50%|#####     | 1/2 [00:01<00:01,  1.10s/it]
+coref_precision: 0.6093, coref_recall: 0.2396, coref_f1: 0.3425, mention_recall: 0.6875, loss: 109.8527 ||: 100%|##########| 2/2 [00:02<00:00,  1.16s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.9166, coref_recall: 0.7267, coref_f1: 0.8085, mention_recall: 0.9143, loss: 42.7467 ||:  50%|#####     | 1/2 [00:47<00:47, 47.77s/it]
+coref_precision: 0.7889, coref_recall: 0.5889, coref_f1: 0.6707, mention_recall: 0.8528, loss: 229.9630 ||: 100%|##########| 2/2 [02:31<00:00, 64.49s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5116, coref_recall: 0.1718, coref_f1: 0.2570, mention_recall: 0.7222, loss: 82.5229 ||:  50%|#####     | 1/2 [00:01<00:01,  1.15s/it]
+coref_precision: 0.6266, coref_recall: 0.2440, coref_f1: 0.3498, mention_recall: 0.6875, loss: 110.6482 ||: 100%|##########| 2/2 [00:02<00:00,  1.26s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7742, coref_recall: 0.5147, coref_f1: 0.6113, mention_recall: 0.8390, loss: 388.6506 ||:  50%|#####     | 1/2 [01:43<01:43, 103.58s/it]
+coref_precision: 0.8239, coref_recall: 0.5724, coref_f1: 0.6698, mention_recall: 0.8528, loss: 215.7551 ||: 100%|##########| 2/2 [02:29<00:00, 86.41s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5299, coref_recall: 0.1953, coref_f1: 0.2851, mention_recall: 0.7037, loss: 95.2815 ||:  50%|#####     | 1/2 [00:00<00:00,  1.00it/s]
+coref_precision: 0.6339, coref_recall: 0.2511, coref_f1: 0.3588, mention_recall: 0.6750, loss: 128.1515 ||: 100%|##########| 2/2 [00:02<00:00,  1.05s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7923, coref_recall: 0.4804, coref_f1: 0.5868, mention_recall: 0.8269, loss: 370.5321 ||:  50%|#####     | 1/2 [01:39<01:39, 99.96s/it]
+coref_precision: 0.8368, coref_recall: 0.5444, coref_f1: 0.6507, mention_recall: 0.8501, loss: 207.1124 ||: 100%|##########| 2/2 [02:28<00:00, 84.46s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.3970, coref_recall: 0.2064, coref_f1: 0.2714, mention_recall: 0.6481, loss: 74.6086 ||:  50%|#####     | 1/2 [00:01<00:01,  1.06s/it]
+coref_precision: 0.4831, coref_recall: 0.2654, coref_f1: 0.3393, mention_recall: 0.6500, loss: 114.5186 ||: 100%|##########| 2/2 [00:02<00:00,  1.12s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8773, coref_recall: 0.7229, coref_f1: 0.7905, mention_recall: 0.9143, loss: 47.9076 ||:  50%|#####     | 1/2 [00:46<00:46, 46.76s/it]
+coref_precision: 0.7895, coref_recall: 0.5688, coref_f1: 0.6559, mention_recall: 0.8422, loss: 182.2087 ||: 100%|##########| 2/2 [02:33<00:00, 64.68s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4982, coref_recall: 0.1996, coref_f1: 0.2847, mention_recall: 0.6667, loss: 74.6497 ||:  50%|#####     | 1/2 [00:01<00:01,  1.11s/it]
+coref_precision: 0.5832, coref_recall: 0.2712, coref_f1: 0.3691, mention_recall: 0.6562, loss: 108.1404 ||: 100%|##########| 2/2 [00:02<00:00,  1.14s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7799, coref_recall: 0.4924, coref_f1: 0.5966, mention_recall: 0.8305, loss: 332.3008 ||:  50%|#####     | 1/2 [01:34<01:34, 94.62s/it]
+coref_precision: 0.8144, coref_recall: 0.5635, coref_f1: 0.6607, mention_recall: 0.8528, loss: 187.6909 ||: 100%|##########| 2/2 [02:20<00:00, 80.09s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5535, coref_recall: 0.1675, coref_f1: 0.2568, mention_recall: 0.6667, loss: 81.6985 ||:  50%|#####     | 1/2 [00:00<00:00,  1.00it/s]
+coref_precision: 0.6534, coref_recall: 0.2426, coref_f1: 0.3523, mention_recall: 0.6562, loss: 114.9251 ||: 100%|##########| 2/2 [00:02<00:00,  1.05s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.8718, coref_recall: 0.7040, coref_f1: 0.7765, mention_recall: 0.9143, loss: 53.7351 ||:  50%|#####     | 1/2 [00:46<00:46, 46.30s/it]
+coref_precision: 0.8240, coref_recall: 0.5129, coref_f1: 0.6243, mention_recall: 0.8615, loss: 274.1831 ||: 100%|##########| 2/2 [02:26<00:00, 62.46s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5535, coref_recall: 0.1675, coref_f1: 0.2568, mention_recall: 0.7037, loss: 113.7111 ||:  50%|#####     | 1/2 [00:01<00:01,  1.05s/it]
+coref_precision: 0.6402, coref_recall: 0.2384, coref_f1: 0.3460, mention_recall: 0.6813, loss: 143.7856 ||: 100%|##########| 2/2 [00:02<00:00,  1.10s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7926, coref_recall: 0.4392, coref_f1: 0.5539, mention_recall: 0.8390, loss: 401.8656 ||:  50%|#####     | 1/2 [01:41<01:41, 101.93s/it]
+coref_precision: 0.8400, coref_recall: 0.5190, coref_f1: 0.6331, mention_recall: 0.8598, loss: 225.7855 ||: 100%|##########| 2/2 [02:29<00:00, 85.50s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.5410, coref_recall: 0.2162, coref_f1: 0.3086, mention_recall: 0.7037, loss: 96.7324 ||:  50%|#####     | 1/2 [00:01<00:01,  1.01s/it]
+coref_precision: 0.5767, coref_recall: 0.2802, coref_f1: 0.3752, mention_recall: 0.6813, loss: 126.1098 ||: 100%|##########| 2/2 [00:02<00:00,  1.07s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7716, coref_recall: 0.5476, coref_f1: 0.6363, mention_recall: 0.8378, loss: 337.7600 ||:  50%|#####     | 1/2 [01:42<01:42, 102.04s/it]
+coref_precision: 0.8105, coref_recall: 0.6003, coref_f1: 0.6859, mention_recall: 0.8598, loss: 194.1637 ||: 100%|##########| 2/2 [02:31<00:00, 86.18s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.4903, coref_recall: 0.2313, coref_f1: 0.3142, mention_recall: 0.7037, loss: 90.8972 ||:  50%|#####     | 1/2 [00:01<00:01,  1.12s/it]
+coref_precision: 0.5205, coref_recall: 0.2948, coref_f1: 0.3757, mention_recall: 0.6813, loss: 128.3292 ||: 100%|##########| 2/2 [00:02<00:00,  1.17s/it]
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.7545, coref_recall: 0.5611, coref_f1: 0.6408, mention_recall: 0.8450, loss: 341.5405 ||:  50%|#####     | 1/2 [01:47<01:47, 107.39s/it]
+coref_precision: 0.8076, coref_recall: 0.6178, coref_f1: 0.6972, mention_recall: 0.8650, loss: 186.0444 ||: 100%|##########| 2/2 [02:33<00:00, 89.15s/it] 
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+coref_precision: 0.6028, coref_recall: 0.2062, coref_f1: 0.3070, mention_recall: 0.6852, loss: 83.9221 ||:  50%|#####     | 1/2 [00:01<00:01,  1.19s/it]
+coref_precision: 0.6607, coref_recall: 0.2748, coref_f1: 0.3864, mention_recall: 0.6813, loss: 124.8511 ||: 100%|##########| 2/2 [00:02<00:00,  1.25s/it]
+

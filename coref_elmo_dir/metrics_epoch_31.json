@@ -1,0 +1,16 @@
+{
+  "training_duration": "00:27:54",
+  "training_start_epoch": 30,
+  "training_epochs": 1,
+  "epoch": 31,
+  "training_coref_precision": 0.6624115002593247,
+  "training_coref_recall": 0.26789268739447264,
+  "training_coref_f1": 0.3790616481435201,
+  "training_mention_recall": 0.8431200701139352,
+  "training_loss": 694.1845092773438,
+  "validation_coref_precision": 0.6058254167704504,
+  "validation_coref_recall": 0.22419361952405778,
+  "validation_coref_f1": 0.3264401096917457,
+  "validation_mention_recall": 0.8125,
+  "validation_loss": 150.3506622314453
+}

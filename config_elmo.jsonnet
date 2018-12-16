@@ -58,20 +58,20 @@
     "context_layer": {
         "type": "lstm",
         "bidirectional": true,
-        "input_size": 400,
+        "input_size": 1424,
         "hidden_size": 200,
         "num_layers": 1,
         "dropout": 0.2
     },
     "mention_feedforward": {
-        "input_dim": 1220,
+        "input_dim": 2244,
         "num_layers": 2,
         "hidden_dims": 150,
         "activations": "relu",
         "dropout": 0.2
     },
     "antecedent_feedforward": {
-        "input_dim": 3680,
+        "input_dim": 6752,
         "num_layers": 2,
         "hidden_dims": 150,
         "activations": "relu",
